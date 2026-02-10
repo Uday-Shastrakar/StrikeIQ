@@ -1475,3 +1475,41 @@
 2026-02-11 00:36:06,144 - app.services.market_dashboard_service - WARNING - Empty 'data' field in response for BANKNIFTY
 2026-02-11 00:36:06,145 - app.services.market_dashboard_service - INFO - This might be due to market hours or API permissions
 2026-02-11 00:36:06,145 - app.services.market_dashboard_service - INFO - Could not get market status: 'UpstoxClient' object has no attribute 'get_market_status'
+2026-02-11 01:18:16,405 - main - INFO - Starting StrikeIQ API...
+2026-02-11 01:18:16,406 - main - WARNING - Failed to start data scheduler: object NoneType can't be used in 'await' expression
+2026-02-11 01:19:10,128 - main - ERROR - Error in dashboard endpoint for NIFTY: MarketDashboardService.__init__() takes 1 positional argument but 2 were given
+2026-02-11 01:19:10,148 - main - ERROR - Error in dashboard endpoint for NIFTY: MarketDashboardService.__init__() takes 1 positional argument but 2 were given
+2026-02-11 01:19:13,611 - main - ERROR - Error in dashboard endpoint for NIFTY: MarketDashboardService.__init__() takes 1 positional argument but 2 were given
+2026-02-11 01:19:13,621 - main - ERROR - Error in dashboard endpoint for NIFTY: MarketDashboardService.__init__() takes 1 positional argument but 2 were given
+2026-02-11 01:19:14,766 - main - ERROR - Error in dashboard endpoint for NIFTY: MarketDashboardService.__init__() takes 1 positional argument but 2 were given
+2026-02-11 01:19:14,782 - main - ERROR - Error in dashboard endpoint for NIFTY: MarketDashboardService.__init__() takes 1 positional argument but 2 were given
+2026-02-11 01:19:15,093 - main - ERROR - Error in dashboard endpoint for NIFTY: MarketDashboardService.__init__() takes 1 positional argument but 2 were given
+2026-02-11 01:19:15,103 - main - ERROR - Error in dashboard endpoint for NIFTY: MarketDashboardService.__init__() takes 1 positional argument but 2 were given
+2026-02-11 01:19:15,440 - main - ERROR - Error in dashboard endpoint for NIFTY: MarketDashboardService.__init__() takes 1 positional argument but 2 were given
+2026-02-11 01:19:15,451 - main - ERROR - Error in dashboard endpoint for NIFTY: MarketDashboardService.__init__() takes 1 positional argument but 2 were given
+2026-02-11 01:19:15,747 - main - ERROR - Error in dashboard endpoint for NIFTY: MarketDashboardService.__init__() takes 1 positional argument but 2 were given
+2026-02-11 01:19:16,043 - main - ERROR - Error in dashboard endpoint for NIFTY: MarketDashboardService.__init__() takes 1 positional argument but 2 were given
+2026-02-11 01:19:16,344 - main - ERROR - Error in dashboard endpoint for NIFTY: MarketDashboardService.__init__() takes 1 positional argument but 2 were given
+2026-02-11 01:19:16,363 - main - ERROR - Error in dashboard endpoint for NIFTY: MarketDashboardService.__init__() takes 1 positional argument but 2 were given
+2026-02-11 01:19:16,655 - main - ERROR - Error in dashboard endpoint for NIFTY: MarketDashboardService.__init__() takes 1 positional argument but 2 were given
+2026-02-11 01:19:16,666 - main - ERROR - Error in dashboard endpoint for NIFTY: MarketDashboardService.__init__() takes 1 positional argument but 2 were given
+2026-02-11 01:19:21,733 - main - ERROR - Error in dashboard endpoint for NIFTY: MarketDashboardService.__init__() takes 1 positional argument but 2 were given
+2026-02-11 01:19:26,734 - main - ERROR - Error in dashboard endpoint for NIFTY: MarketDashboardService.__init__() takes 1 positional argument but 2 were given
+2026-02-11 01:19:31,735 - main - ERROR - Error in dashboard endpoint for NIFTY: MarketDashboardService.__init__() takes 1 positional argument but 2 were given
+2026-02-11 01:19:36,730 - main - ERROR - Error in dashboard endpoint for NIFTY: MarketDashboardService.__init__() takes 1 positional argument but 2 were given
+2026-02-11 01:19:41,745 - main - ERROR - Error in dashboard endpoint for NIFTY: MarketDashboardService.__init__() takes 1 positional argument but 2 were given
+2026-02-11 01:19:46,738 - main - ERROR - Error in dashboard endpoint for NIFTY: MarketDashboardService.__init__() takes 1 positional argument but 2 were given
+2026-02-11 01:19:51,734 - main - ERROR - Error in dashboard endpoint for NIFTY: MarketDashboardService.__init__() takes 1 positional argument but 2 were given
+2026-02-11 01:19:52,642 - main - INFO - Shutting down StrikeIQ API...
+2026-02-11 01:19:54,479 - main - INFO - Starting StrikeIQ API...
+2026-02-11 01:19:54,480 - main - WARNING - Failed to start data scheduler: object NoneType can't be used in 'await' expression
+2026-02-11 01:19:57,079 - main - INFO - Shutting down StrikeIQ API...
+2026-02-11 01:19:59,109 - main - INFO - Starting StrikeIQ API...
+2026-02-11 01:19:59,110 - main - WARNING - Failed to start data scheduler: object NoneType can't be used in 'await' expression
+2026-02-11 01:21:44,085 - main - INFO - Shutting down StrikeIQ API...
+2026-02-11 01:21:51,591 - main - INFO - Starting StrikeIQ API...
+2026-02-11 01:21:51,592 - main - WARNING - Failed to start data scheduler: object NoneType can't be used in 'await' expression
+2026-02-11 01:25:20,122 - main - INFO - Shutting down StrikeIQ API...
+2026-02-11 01:25:21,748 - main - INFO - Starting StrikeIQ API...
+2026-02-11 01:25:21,753 - main - WARNING - Failed to start data scheduler: object NoneType can't be used in 'await' expression
+2026-02-11 01:26:36,246 - main - INFO - Shutting down StrikeIQ API...
