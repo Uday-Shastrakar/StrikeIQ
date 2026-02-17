@@ -13419,3 +13419,1791 @@
 [01:32:49.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:14.187846+00:00"}
 [01:32:49.553] Browser LOG     🔍 DATA SOURCE: undefined
 [01:32:49.553] Browser LOG     💓 WebSocket heartbeat received
+[01:32:50.554] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:15.193279+00:00"}
+[01:32:50.554] Browser LOG     🔍 DATA SOURCE: undefined
+[01:32:50.554] Browser LOG     💓 WebSocket heartbeat received
+[01:32:50.554] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:15.193680+00:00"}
+[01:32:50.554] Browser LOG     🔍 DATA SOURCE: undefined
+[01:32:50.554] Browser LOG     💓 WebSocket heartbeat received
+[01:32:51.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:16.208636+00:00"}
+[01:32:51.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:32:51.551] Browser LOG     💓 WebSocket heartbeat received
+[01:32:51.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:16.209388+00:00"}
+[01:32:51.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:32:51.551] Browser LOG     💓 WebSocket heartbeat received
+[01:32:52.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:17.221813+00:00"}
+[01:32:52.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:32:52.553] Browser LOG     💓 WebSocket heartbeat received
+[01:32:52.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:17.222262+00:00"}
+[01:32:52.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:32:52.553] Browser LOG     💓 WebSocket heartbeat received
+[01:32:53.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:18.235536+00:00"}
+[01:32:53.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:32:53.552] Browser LOG     💓 WebSocket heartbeat received
+[01:32:53.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:18.235901+00:00"}
+[01:32:53.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:32:53.552] Browser LOG     💓 WebSocket heartbeat received
+[01:32:54.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:19.250350+00:00"}
+[01:32:54.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:32:54.551] Browser LOG     💓 WebSocket heartbeat received
+[01:32:54.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:19.251010+00:00"}
+[01:32:54.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:32:54.551] Browser LOG     💓 WebSocket heartbeat received
+[01:32:55.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:20.251910+00:00"}
+[01:32:55.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:32:55.548] Browser LOG     💓 WebSocket heartbeat received
+[01:32:55.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:20.252982+00:00"}
+[01:32:55.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:32:55.548] Browser LOG     💓 WebSocket heartbeat received
+[01:32:56.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:21.253924+00:00"}
+[01:32:56.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:32:56.549] Browser LOG     💓 WebSocket heartbeat received
+[01:32:56.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:21.254818+00:00"}
+[01:32:56.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:32:56.549] Browser LOG     💓 WebSocket heartbeat received
+[01:32:57.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:22.268392+00:00"}
+[01:32:57.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:32:57.546] Browser LOG     💓 WebSocket heartbeat received
+[01:32:57.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:22.269042+00:00"}
+[01:32:57.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:32:57.546] Browser LOG     💓 WebSocket heartbeat received
+[01:32:58.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:23.281378+00:00"}
+[01:32:58.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:32:58.547] Browser LOG     💓 WebSocket heartbeat received
+[01:32:58.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:23.282061+00:00"}
+[01:32:58.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:32:58.547] Browser LOG     💓 WebSocket heartbeat received
+[01:32:59.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:24.295345+00:00"}
+[01:32:59.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:32:59.548] Browser LOG     💓 WebSocket heartbeat received
+[01:32:59.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:24.295732+00:00"}
+[01:32:59.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:32:59.548] Browser LOG     💓 WebSocket heartbeat received
+[01:33:00.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:25.308160+00:00"}
+[01:33:00.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:00.553] Browser LOG     💓 WebSocket heartbeat received
+[01:33:00.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:25.308834+00:00"}
+[01:33:00.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:00.553] Browser LOG     💓 WebSocket heartbeat received
+[01:33:01.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:26.439678+00:00"}
+[01:33:01.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:01.551] Browser LOG     💓 WebSocket heartbeat received
+[01:33:01.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:26.440436+00:00"}
+[01:33:01.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:01.551] Browser LOG     💓 WebSocket heartbeat received
+[01:33:03.640] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:27.448860+00:00"}
+[01:33:03.640] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:03.640] Browser LOG     💓 WebSocket heartbeat received
+[01:33:03.640] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:27.452624+00:00"}
+[01:33:03.640] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:03.640] Browser LOG     💓 WebSocket heartbeat received
+[01:33:03.640] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:28.468818+00:00"}
+[01:33:03.640] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:03.640] Browser LOG     💓 WebSocket heartbeat received
+[01:33:03.640] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:28.469866+00:00"}
+[01:33:03.640] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:03.640] Browser LOG     💓 WebSocket heartbeat received
+[01:33:04.554] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:29.479606+00:00"}
+[01:33:04.554] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:04.554] Browser LOG     💓 WebSocket heartbeat received
+[01:33:04.554] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:29.480556+00:00"}
+[01:33:04.555] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:04.555] Browser LOG     💓 WebSocket heartbeat received
+[01:33:05.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:30.491062+00:00"}
+[01:33:05.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:05.552] Browser LOG     💓 WebSocket heartbeat received
+[01:33:05.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:30.495624+00:00"}
+[01:33:05.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:05.552] Browser LOG     💓 WebSocket heartbeat received
+[01:33:06.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:31.499853+00:00"}
+[01:33:06.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:06.552] Browser LOG     💓 WebSocket heartbeat received
+[01:33:06.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:31.500361+00:00"}
+[01:33:06.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:06.552] Browser LOG     💓 WebSocket heartbeat received
+[01:33:07.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:32.500745+00:00"}
+[01:33:07.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:07.553] Browser LOG     💓 WebSocket heartbeat received
+[01:33:07.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:32.501102+00:00"}
+[01:33:07.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:07.553] Browser LOG     💓 WebSocket heartbeat received
+[01:33:08.545] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:33.503931+00:00"}
+[01:33:08.545] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:08.545] Browser LOG     💓 WebSocket heartbeat received
+[01:33:08.545] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:33.504396+00:00"}
+[01:33:08.545] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:08.545] Browser LOG     💓 WebSocket heartbeat received
+[01:33:09.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:34.505402+00:00"}
+[01:33:09.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:09.551] Browser LOG     💓 WebSocket heartbeat received
+[01:33:09.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:34.506183+00:00"}
+[01:33:09.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:09.551] Browser LOG     💓 WebSocket heartbeat received
+[01:33:10.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:35.512134+00:00"}
+[01:33:10.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:10.553] Browser LOG     💓 WebSocket heartbeat received
+[01:33:10.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:35.512489+00:00"}
+[01:33:10.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:10.553] Browser LOG     💓 WebSocket heartbeat received
+[01:33:11.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:36.760839+00:00"}
+[01:33:11.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:11.553] Browser LOG     💓 WebSocket heartbeat received
+[01:33:11.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:36.760714+00:00"}
+[01:33:11.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:11.553] Browser LOG     💓 WebSocket heartbeat received
+[01:33:12.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:37.774266+00:00"}
+[01:33:12.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:12.551] Browser LOG     💓 WebSocket heartbeat received
+[01:33:12.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:37.774568+00:00"}
+[01:33:12.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:12.551] Browser LOG     💓 WebSocket heartbeat received
+[01:33:13.540] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:38.785583+00:00"}
+[01:33:13.540] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:13.540] Browser LOG     💓 WebSocket heartbeat received
+[01:33:13.540] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:38.786434+00:00"}
+[01:33:13.540] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:13.540] Browser LOG     💓 WebSocket heartbeat received
+[01:33:14.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:39.792443+00:00"}
+[01:33:14.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:14.552] Browser LOG     💓 WebSocket heartbeat received
+[01:33:14.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:39.792704+00:00"}
+[01:33:14.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:14.552] Browser LOG     💓 WebSocket heartbeat received
+[01:33:15.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:41.014202+00:00"}
+[01:33:15.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:15.548] Browser LOG     💓 WebSocket heartbeat received
+[01:33:15.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:41.014670+00:00"}
+[01:33:15.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:15.548] Browser LOG     💓 WebSocket heartbeat received
+[01:33:16.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:42.023833+00:00"}
+[01:33:16.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:16.541] Browser LOG     💓 WebSocket heartbeat received
+[01:33:16.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:42.024121+00:00"}
+[01:33:16.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:16.541] Browser LOG     💓 WebSocket heartbeat received
+[01:33:17.543] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:43.031152+00:00"}
+[01:33:17.543] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:17.543] Browser LOG     💓 WebSocket heartbeat received
+[01:33:17.543] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:43.031947+00:00"}
+[01:33:17.543] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:17.543] Browser LOG     💓 WebSocket heartbeat received
+[01:33:29.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:44.032037+00:00"}
+[01:33:29.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:29.549] Browser LOG     💓 WebSocket heartbeat received
+[01:33:29.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:44.046409+00:00"}
+[01:33:29.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:29.549] Browser LOG     💓 WebSocket heartbeat received
+[01:33:29.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:45.035831+00:00"}
+[01:33:29.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:29.549] Browser LOG     💓 WebSocket heartbeat received
+[01:33:29.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:45.051919+00:00"}
+[01:33:29.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:29.549] Browser LOG     💓 WebSocket heartbeat received
+[01:33:29.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:46.038491+00:00"}
+[01:33:29.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:29.549] Browser LOG     💓 WebSocket heartbeat received
+[01:33:29.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:46.063568+00:00"}
+[01:33:29.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:29.549] Browser LOG     💓 WebSocket heartbeat received
+[01:33:29.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:47.069727+00:00"}
+[01:33:29.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:29.549] Browser LOG     💓 WebSocket heartbeat received
+[01:33:29.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:47.070016+00:00"}
+[01:33:29.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:29.549] Browser LOG     💓 WebSocket heartbeat received
+[01:33:29.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:48.081549+00:00"}
+[01:33:29.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:29.549] Browser LOG     💓 WebSocket heartbeat received
+[01:33:29.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:48.082075+00:00"}
+[01:33:29.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:29.549] Browser LOG     💓 WebSocket heartbeat received
+[01:33:29.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:49.090384+00:00"}
+[01:33:29.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:29.549] Browser LOG     💓 WebSocket heartbeat received
+[01:33:29.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:49.090685+00:00"}
+[01:33:29.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:29.549] Browser LOG     💓 WebSocket heartbeat received
+[01:33:29.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:50.097828+00:00"}
+[01:33:29.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:29.549] Browser LOG     💓 WebSocket heartbeat received
+[01:33:29.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:50.098464+00:00"}
+[01:33:29.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:29.549] Browser LOG     💓 WebSocket heartbeat received
+[01:33:29.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:51.101541+00:00"}
+[01:33:29.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:29.549] Browser LOG     💓 WebSocket heartbeat received
+[01:33:29.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:51.101958+00:00"}
+[01:33:29.550] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:29.550] Browser LOG     💓 WebSocket heartbeat received
+[01:33:29.550] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:52.117771+00:00"}
+[01:33:29.550] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:29.550] Browser LOG     💓 WebSocket heartbeat received
+[01:33:29.550] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:52.118181+00:00"}
+[01:33:29.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:29.551] Browser LOG     💓 WebSocket heartbeat received
+[01:33:29.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:53.119240+00:00"}
+[01:33:29.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:29.551] Browser LOG     💓 WebSocket heartbeat received
+[01:33:29.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:53.119696+00:00"}
+[01:33:29.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:29.551] Browser LOG     💓 WebSocket heartbeat received
+[01:33:29.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:54.132286+00:00"}
+[01:33:29.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:29.551] Browser LOG     💓 WebSocket heartbeat received
+[01:33:29.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:54.132710+00:00"}
+[01:33:29.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:29.551] Browser LOG     💓 WebSocket heartbeat received
+[01:33:30.539] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:55.144787+00:00"}
+[01:33:30.539] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:30.539] Browser LOG     💓 WebSocket heartbeat received
+[01:33:30.539] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:55.145318+00:00"}
+[01:33:30.539] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:30.539] Browser LOG     💓 WebSocket heartbeat received
+[01:33:31.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:56.157888+00:00"}
+[01:33:31.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:31.547] Browser LOG     💓 WebSocket heartbeat received
+[01:33:31.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:56.158153+00:00"}
+[01:33:31.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:31.547] Browser LOG     💓 WebSocket heartbeat received
+[01:33:32.545] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:57.166360+00:00"}
+[01:33:32.545] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:32.545] Browser LOG     💓 WebSocket heartbeat received
+[01:33:32.545] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:57.166773+00:00"}
+[01:33:32.545] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:32.545] Browser LOG     💓 WebSocket heartbeat received
+[01:33:33.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:58.179864+00:00"}
+[01:33:33.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:33.553] Browser LOG     💓 WebSocket heartbeat received
+[01:33:33.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:58.180447+00:00"}
+[01:33:33.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:33.553] Browser LOG     💓 WebSocket heartbeat received
+[01:33:34.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:59.262293+00:00"}
+[01:33:34.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:34.547] Browser LOG     💓 WebSocket heartbeat received
+[01:33:34.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:41:59.262979+00:00"}
+[01:33:34.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:34.547] Browser LOG     💓 WebSocket heartbeat received
+[01:33:35.550] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:00.263599+00:00"}
+[01:33:35.550] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:35.550] Browser LOG     💓 WebSocket heartbeat received
+[01:33:35.550] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:00.266361+00:00"}
+[01:33:35.550] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:35.550] Browser LOG     💓 WebSocket heartbeat received
+[01:33:36.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:01.277995+00:00"}
+[01:33:36.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:36.552] Browser LOG     💓 WebSocket heartbeat received
+[01:33:36.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:01.278575+00:00"}
+[01:33:36.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:36.552] Browser LOG     💓 WebSocket heartbeat received
+[01:33:37.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:02.290863+00:00"}
+[01:33:37.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:37.544] Browser LOG     💓 WebSocket heartbeat received
+[01:33:37.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:02.291167+00:00"}
+[01:33:37.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:37.544] Browser LOG     💓 WebSocket heartbeat received
+[01:33:38.540] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:03.295877+00:00"}
+[01:33:38.540] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:38.540] Browser LOG     💓 WebSocket heartbeat received
+[01:33:38.540] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:03.297181+00:00"}
+[01:33:38.540] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:38.540] Browser LOG     💓 WebSocket heartbeat received
+[01:33:39.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:04.304092+00:00"}
+[01:33:39.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:39.546] Browser LOG     💓 WebSocket heartbeat received
+[01:33:39.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:04.304582+00:00"}
+[01:33:39.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:39.546] Browser LOG     💓 WebSocket heartbeat received
+[01:33:40.542] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:05.318693+00:00"}
+[01:33:40.542] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:40.542] Browser LOG     💓 WebSocket heartbeat received
+[01:33:40.542] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:05.319053+00:00"}
+[01:33:40.542] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:40.542] Browser LOG     💓 WebSocket heartbeat received
+[01:33:41.556] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:06.328752+00:00"}
+[01:33:41.557] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:41.557] Browser LOG     💓 WebSocket heartbeat received
+[01:33:41.557] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:06.329317+00:00"}
+[01:33:41.557] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:41.557] Browser LOG     💓 WebSocket heartbeat received
+[01:33:42.545] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:07.333728+00:00"}
+[01:33:42.545] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:42.545] Browser LOG     💓 WebSocket heartbeat received
+[01:33:42.545] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:07.334006+00:00"}
+[01:33:42.545] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:42.545] Browser LOG     💓 WebSocket heartbeat received
+[01:33:43.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:08.337270+00:00"}
+[01:33:43.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:43.544] Browser LOG     💓 WebSocket heartbeat received
+[01:33:43.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:08.337797+00:00"}
+[01:33:43.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:43.544] Browser LOG     💓 WebSocket heartbeat received
+[01:33:44.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:09.348636+00:00"}
+[01:33:44.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:44.546] Browser LOG     💓 WebSocket heartbeat received
+[01:33:44.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:09.348993+00:00"}
+[01:33:44.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:44.546] Browser LOG     💓 WebSocket heartbeat received
+[01:33:45.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:10.355604+00:00"}
+[01:33:45.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:45.548] Browser LOG     💓 WebSocket heartbeat received
+[01:33:45.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:10.356398+00:00"}
+[01:33:45.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:45.548] Browser LOG     💓 WebSocket heartbeat received
+[01:33:46.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:11.366497+00:00"}
+[01:33:46.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:46.551] Browser LOG     💓 WebSocket heartbeat received
+[01:33:46.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:11.367140+00:00"}
+[01:33:46.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:46.551] Browser LOG     💓 WebSocket heartbeat received
+[01:33:47.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:12.370139+00:00"}
+[01:33:47.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:47.553] Browser LOG     💓 WebSocket heartbeat received
+[01:33:47.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:12.370843+00:00"}
+[01:33:47.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:47.553] Browser LOG     💓 WebSocket heartbeat received
+[01:33:48.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:13.373206+00:00"}
+[01:33:48.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:48.548] Browser LOG     💓 WebSocket heartbeat received
+[01:33:48.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:13.374121+00:00"}
+[01:33:48.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:48.548] Browser LOG     💓 WebSocket heartbeat received
+[01:33:49.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:14.387741+00:00"}
+[01:33:49.554] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:49.554] Browser LOG     💓 WebSocket heartbeat received
+[01:33:49.554] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:14.388254+00:00"}
+[01:33:49.554] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:49.554] Browser LOG     💓 WebSocket heartbeat received
+[01:33:50.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:15.397147+00:00"}
+[01:33:50.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:50.549] Browser LOG     💓 WebSocket heartbeat received
+[01:33:50.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:15.397733+00:00"}
+[01:33:50.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:50.549] Browser LOG     💓 WebSocket heartbeat received
+[01:33:51.540] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:16.399415+00:00"}
+[01:33:51.540] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:51.540] Browser LOG     💓 WebSocket heartbeat received
+[01:33:51.540] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:16.399995+00:00"}
+[01:33:51.540] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:51.540] Browser LOG     💓 WebSocket heartbeat received
+[01:33:52.603] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:17.410237+00:00"}
+[01:33:52.604] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:52.604] Browser LOG     💓 WebSocket heartbeat received
+[01:33:52.604] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:17.410607+00:00"}
+[01:33:52.604] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:52.604] Browser LOG     💓 WebSocket heartbeat received
+[01:33:53.555] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:18.415173+00:00"}
+[01:33:53.555] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:53.555] Browser LOG     💓 WebSocket heartbeat received
+[01:33:53.555] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:18.416293+00:00"}
+[01:33:53.555] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:53.555] Browser LOG     💓 WebSocket heartbeat received
+[01:33:54.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:19.422028+00:00"}
+[01:33:54.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:54.546] Browser LOG     💓 WebSocket heartbeat received
+[01:33:54.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:19.422408+00:00"}
+[01:33:54.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:54.546] Browser LOG     💓 WebSocket heartbeat received
+[01:33:55.543] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:20.430939+00:00"}
+[01:33:55.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:55.544] Browser LOG     💓 WebSocket heartbeat received
+[01:33:55.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:20.431934+00:00"}
+[01:33:55.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:55.544] Browser LOG     💓 WebSocket heartbeat received
+[01:33:56.539] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:21.442736+00:00"}
+[01:33:56.539] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:56.539] Browser LOG     💓 WebSocket heartbeat received
+[01:33:56.539] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:21.443061+00:00"}
+[01:33:56.539] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:56.539] Browser LOG     💓 WebSocket heartbeat received
+[01:33:57.554] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:22.453130+00:00"}
+[01:33:57.554] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:57.554] Browser LOG     💓 WebSocket heartbeat received
+[01:33:57.554] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:22.453925+00:00"}
+[01:33:57.554] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:57.554] Browser LOG     💓 WebSocket heartbeat received
+[01:33:58.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:23.463394+00:00"}
+[01:33:58.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:58.549] Browser LOG     💓 WebSocket heartbeat received
+[01:33:58.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:23.463873+00:00"}
+[01:33:58.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:58.549] Browser LOG     💓 WebSocket heartbeat received
+[01:33:59.550] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:24.466983+00:00"}
+[01:33:59.550] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:59.550] Browser LOG     💓 WebSocket heartbeat received
+[01:33:59.550] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:24.467444+00:00"}
+[01:33:59.550] Browser LOG     🔍 DATA SOURCE: undefined
+[01:33:59.550] Browser LOG     💓 WebSocket heartbeat received
+[01:34:00.545] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:25.470015+00:00"}
+[01:34:00.545] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:00.545] Browser LOG     💓 WebSocket heartbeat received
+[01:34:00.545] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:25.470443+00:00"}
+[01:34:00.545] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:00.545] Browser LOG     💓 WebSocket heartbeat received
+[01:34:01.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:26.477194+00:00"}
+[01:34:01.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:01.547] Browser LOG     💓 WebSocket heartbeat received
+[01:34:01.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:26.477610+00:00"}
+[01:34:01.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:01.547] Browser LOG     💓 WebSocket heartbeat received
+[01:34:02.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:27.902228+00:00"}
+[01:34:02.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:02.541] Browser LOG     💓 WebSocket heartbeat received
+[01:34:02.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:27.902729+00:00"}
+[01:34:02.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:02.541] Browser LOG     💓 WebSocket heartbeat received
+[01:34:03.543] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:28.906125+00:00"}
+[01:34:03.543] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:03.543] Browser LOG     💓 WebSocket heartbeat received
+[01:34:03.543] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:28.907024+00:00"}
+[01:34:03.543] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:03.543] Browser LOG     💓 WebSocket heartbeat received
+[01:34:05.542] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:30.295038+00:00"}
+[01:34:05.542] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:05.542] Browser LOG     💓 WebSocket heartbeat received
+[01:34:05.542] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:30.295939+00:00"}
+[01:34:05.542] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:05.542] Browser LOG     💓 WebSocket heartbeat received
+[01:34:06.545] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:31.300945+00:00"}
+[01:34:06.545] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:06.545] Browser LOG     💓 WebSocket heartbeat received
+[01:34:06.545] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:31.301438+00:00"}
+[01:34:06.545] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:06.545] Browser LOG     💓 WebSocket heartbeat received
+[01:34:07.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:32.309055+00:00"}
+[01:34:07.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:07.552] Browser LOG     💓 WebSocket heartbeat received
+[01:34:07.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:32.310074+00:00"}
+[01:34:07.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:07.552] Browser LOG     💓 WebSocket heartbeat received
+[01:34:08.561] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:33.314267+00:00"}
+[01:34:08.561] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:08.561] Browser LOG     💓 WebSocket heartbeat received
+[01:34:08.561] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:33.315176+00:00"}
+[01:34:08.561] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:08.561] Browser LOG     💓 WebSocket heartbeat received
+[01:34:09.555] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:34.339010+00:00"}
+[01:34:09.555] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:09.555] Browser LOG     💓 WebSocket heartbeat received
+[01:34:09.555] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:34.342870+00:00"}
+[01:34:09.555] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:09.555] Browser LOG     💓 WebSocket heartbeat received
+[01:34:10.542] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:35.359399+00:00"}
+[01:34:10.542] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:10.542] Browser LOG     💓 WebSocket heartbeat received
+[01:34:10.542] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:35.360141+00:00"}
+[01:34:10.542] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:10.542] Browser LOG     💓 WebSocket heartbeat received
+[01:34:11.554] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:36.374954+00:00"}
+[01:34:11.554] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:11.554] Browser LOG     💓 WebSocket heartbeat received
+[01:34:11.554] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:36.375399+00:00"}
+[01:34:11.554] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:11.554] Browser LOG     💓 WebSocket heartbeat received
+[01:34:12.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:37.390805+00:00"}
+[01:34:12.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:12.551] Browser LOG     💓 WebSocket heartbeat received
+[01:34:12.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:37.391227+00:00"}
+[01:34:12.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:12.551] Browser LOG     💓 WebSocket heartbeat received
+[01:34:13.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:38.403024+00:00"}
+[01:34:13.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:13.549] Browser LOG     💓 WebSocket heartbeat received
+[01:34:13.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:38.403440+00:00"}
+[01:34:13.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:13.549] Browser LOG     💓 WebSocket heartbeat received
+[01:34:14.582] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:39.404971+00:00"}
+[01:34:14.583] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:14.583] Browser LOG     💓 WebSocket heartbeat received
+[01:34:14.583] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:39.405471+00:00"}
+[01:34:14.583] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:14.583] Browser LOG     💓 WebSocket heartbeat received
+[01:34:15.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:40.414015+00:00"}
+[01:34:15.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:15.549] Browser LOG     💓 WebSocket heartbeat received
+[01:34:15.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:40.416157+00:00"}
+[01:34:15.550] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:15.550] Browser LOG     💓 WebSocket heartbeat received
+[01:34:16.543] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:41.430894+00:00"}
+[01:34:16.543] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:16.543] Browser LOG     💓 WebSocket heartbeat received
+[01:34:16.543] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:41.431732+00:00"}
+[01:34:16.543] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:16.543] Browser LOG     💓 WebSocket heartbeat received
+[01:34:17.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:42.448394+00:00"}
+[01:34:17.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:17.552] Browser LOG     💓 WebSocket heartbeat received
+[01:34:17.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:42.449073+00:00"}
+[01:34:17.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:17.552] Browser LOG     💓 WebSocket heartbeat received
+[01:34:18.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:43.459019+00:00"}
+[01:34:18.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:18.552] Browser LOG     💓 WebSocket heartbeat received
+[01:34:18.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:43.460136+00:00"}
+[01:34:18.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:18.552] Browser LOG     💓 WebSocket heartbeat received
+[01:34:19.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:44.471000+00:00"}
+[01:34:19.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:19.549] Browser LOG     💓 WebSocket heartbeat received
+[01:34:19.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:44.471567+00:00"}
+[01:34:19.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:19.549] Browser LOG     💓 WebSocket heartbeat received
+[01:34:20.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:45.821205+00:00"}
+[01:34:20.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:20.546] Browser LOG     💓 WebSocket heartbeat received
+[01:34:20.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:45.823103+00:00"}
+[01:34:20.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:20.546] Browser LOG     💓 WebSocket heartbeat received
+[01:34:21.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:46.834841+00:00"}
+[01:34:21.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:21.553] Browser LOG     💓 WebSocket heartbeat received
+[01:34:21.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:46.835287+00:00"}
+[01:34:21.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:21.553] Browser LOG     💓 WebSocket heartbeat received
+[01:34:22.539] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:47.847774+00:00"}
+[01:34:22.540] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:22.540] Browser LOG     💓 WebSocket heartbeat received
+[01:34:22.540] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:47.848287+00:00"}
+[01:34:22.540] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:22.540] Browser LOG     💓 WebSocket heartbeat received
+[01:34:23.539] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:48.859984+00:00"}
+[01:34:23.539] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:23.539] Browser LOG     💓 WebSocket heartbeat received
+[01:34:23.539] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:48.860884+00:00"}
+[01:34:23.539] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:23.539] Browser LOG     💓 WebSocket heartbeat received
+[01:34:24.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:49.865965+00:00"}
+[01:34:24.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:24.549] Browser LOG     💓 WebSocket heartbeat received
+[01:34:24.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:49.866737+00:00"}
+[01:34:24.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:24.549] Browser LOG     💓 WebSocket heartbeat received
+[01:34:25.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:50.874011+00:00"}
+[01:34:25.550] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:25.550] Browser LOG     💓 WebSocket heartbeat received
+[01:34:25.550] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:50.874393+00:00"}
+[01:34:25.550] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:25.550] Browser LOG     💓 WebSocket heartbeat received
+[01:34:26.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:51.880659+00:00"}
+[01:34:26.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:26.549] Browser LOG     💓 WebSocket heartbeat received
+[01:34:26.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:51.881142+00:00"}
+[01:34:26.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:26.549] Browser LOG     💓 WebSocket heartbeat received
+[01:34:28.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:53.158315+00:00"}
+[01:34:28.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:28.548] Browser LOG     💓 WebSocket heartbeat received
+[01:34:28.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:53.158901+00:00"}
+[01:34:28.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:28.548] Browser LOG     💓 WebSocket heartbeat received
+[01:34:29.550] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:54.173408+00:00"}
+[01:34:29.550] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:29.550] Browser LOG     💓 WebSocket heartbeat received
+[01:34:29.550] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:54.173889+00:00"}
+[01:34:29.550] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:29.550] Browser LOG     💓 WebSocket heartbeat received
+[01:34:30.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:55.183143+00:00"}
+[01:34:30.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:30.546] Browser LOG     💓 WebSocket heartbeat received
+[01:34:30.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:55.183767+00:00"}
+[01:34:30.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:30.546] Browser LOG     💓 WebSocket heartbeat received
+[01:34:31.554] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:56.194158+00:00"}
+[01:34:31.554] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:31.554] Browser LOG     💓 WebSocket heartbeat received
+[01:34:31.554] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:56.195402+00:00"}
+[01:34:31.554] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:31.554] Browser LOG     💓 WebSocket heartbeat received
+[01:34:32.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:57.210021+00:00"}
+[01:34:32.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:32.552] Browser LOG     💓 WebSocket heartbeat received
+[01:34:32.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:57.210287+00:00"}
+[01:34:32.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:32.552] Browser LOG     💓 WebSocket heartbeat received
+[01:34:33.556] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:58.565139+00:00"}
+[01:34:33.556] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:33.557] Browser LOG     💓 WebSocket heartbeat received
+[01:34:33.557] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:58.565863+00:00"}
+[01:34:33.557] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:33.557] Browser LOG     💓 WebSocket heartbeat received
+[01:34:34.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:59.576446+00:00"}
+[01:34:34.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:34.548] Browser LOG     💓 WebSocket heartbeat received
+[01:34:34.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:42:59.577563+00:00"}
+[01:34:34.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:34.548] Browser LOG     💓 WebSocket heartbeat received
+[01:34:35.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:00.585099+00:00"}
+[01:34:35.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:35.552] Browser LOG     💓 WebSocket heartbeat received
+[01:34:35.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:00.585521+00:00"}
+[01:34:35.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:35.552] Browser LOG     💓 WebSocket heartbeat received
+[01:34:36.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:01.591618+00:00"}
+[01:34:36.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:36.544] Browser LOG     💓 WebSocket heartbeat received
+[01:34:36.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:01.592531+00:00"}
+[01:34:36.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:36.544] Browser LOG     💓 WebSocket heartbeat received
+[01:34:37.550] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:02.601575+00:00"}
+[01:34:37.550] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:37.550] Browser LOG     💓 WebSocket heartbeat received
+[01:34:37.550] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:02.602069+00:00"}
+[01:34:37.550] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:37.550] Browser LOG     💓 WebSocket heartbeat received
+[01:34:38.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:03.607123+00:00"}
+[01:34:38.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:38.551] Browser LOG     💓 WebSocket heartbeat received
+[01:34:38.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:03.607815+00:00"}
+[01:34:38.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:38.551] Browser LOG     💓 WebSocket heartbeat received
+[01:34:39.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:04.616245+00:00"}
+[01:34:39.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:39.552] Browser LOG     💓 WebSocket heartbeat received
+[01:34:39.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:04.616959+00:00"}
+[01:34:39.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:39.552] Browser LOG     💓 WebSocket heartbeat received
+[01:34:40.555] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:05.767197+00:00"}
+[01:34:40.555] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:40.555] Browser LOG     💓 WebSocket heartbeat received
+[01:34:40.555] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:05.768339+00:00"}
+[01:34:40.555] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:40.555] Browser LOG     💓 WebSocket heartbeat received
+[01:34:41.540] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:06.770627+00:00"}
+[01:34:41.540] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:41.540] Browser LOG     💓 WebSocket heartbeat received
+[01:34:41.540] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:06.771864+00:00"}
+[01:34:41.540] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:41.540] Browser LOG     💓 WebSocket heartbeat received
+[01:34:42.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:07.782305+00:00"}
+[01:34:42.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:42.544] Browser LOG     💓 WebSocket heartbeat received
+[01:34:42.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:07.782789+00:00"}
+[01:34:42.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:42.544] Browser LOG     💓 WebSocket heartbeat received
+[01:34:44.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:09.187291+00:00"}
+[01:34:44.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:44.549] Browser LOG     💓 WebSocket heartbeat received
+[01:34:44.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:09.187932+00:00"}
+[01:34:44.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:44.549] Browser LOG     💓 WebSocket heartbeat received
+[01:34:45.554] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:10.238739+00:00"}
+[01:34:45.554] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:45.554] Browser LOG     💓 WebSocket heartbeat received
+[01:34:45.554] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:10.239390+00:00"}
+[01:34:45.554] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:45.554] Browser LOG     💓 WebSocket heartbeat received
+[01:34:46.542] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:11.245865+00:00"}
+[01:34:46.542] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:46.542] Browser LOG     💓 WebSocket heartbeat received
+[01:34:46.542] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:11.246506+00:00"}
+[01:34:46.542] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:46.542] Browser LOG     💓 WebSocket heartbeat received
+[01:34:47.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:12.250751+00:00"}
+[01:34:47.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:47.553] Browser LOG     💓 WebSocket heartbeat received
+[01:34:47.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:12.251113+00:00"}
+[01:34:47.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:47.553] Browser LOG     💓 WebSocket heartbeat received
+[01:34:48.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:13.265672+00:00"}
+[01:34:48.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:48.544] Browser LOG     💓 WebSocket heartbeat received
+[01:34:48.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:13.266024+00:00"}
+[01:34:48.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:48.544] Browser LOG     💓 WebSocket heartbeat received
+[01:34:49.545] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:14.270785+00:00"}
+[01:34:49.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:49.546] Browser LOG     💓 WebSocket heartbeat received
+[01:34:49.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:14.271325+00:00"}
+[01:34:49.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:49.546] Browser LOG     💓 WebSocket heartbeat received
+[01:34:50.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:15.697027+00:00"}
+[01:34:50.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:50.541] Browser LOG     💓 WebSocket heartbeat received
+[01:34:50.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:15.697476+00:00"}
+[01:34:50.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:50.541] Browser LOG     💓 WebSocket heartbeat received
+[01:34:51.543] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:16.699602+00:00"}
+[01:34:51.543] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:51.543] Browser LOG     💓 WebSocket heartbeat received
+[01:34:51.543] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:16.700025+00:00"}
+[01:34:51.543] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:51.543] Browser LOG     💓 WebSocket heartbeat received
+[01:34:52.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:17.702816+00:00"}
+[01:34:52.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:52.547] Browser LOG     💓 WebSocket heartbeat received
+[01:34:52.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:17.703305+00:00"}
+[01:34:52.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:34:52.547] Browser LOG     💓 WebSocket heartbeat received
+[01:35:01.555] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:19.096894+00:00"}
+[01:35:01.555] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:01.555] Browser LOG     💓 WebSocket heartbeat received
+[01:35:01.555] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:19.097466+00:00"}
+[01:35:01.555] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:01.555] Browser LOG     💓 WebSocket heartbeat received
+[01:35:01.555] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:20.100178+00:00"}
+[01:35:01.555] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:01.555] Browser LOG     💓 WebSocket heartbeat received
+[01:35:01.555] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:20.100655+00:00"}
+[01:35:01.555] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:01.555] Browser LOG     💓 WebSocket heartbeat received
+[01:35:01.555] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:21.108264+00:00"}
+[01:35:01.555] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:01.555] Browser LOG     💓 WebSocket heartbeat received
+[01:35:01.555] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:21.108814+00:00"}
+[01:35:01.555] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:01.555] Browser LOG     💓 WebSocket heartbeat received
+[01:35:01.555] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:22.110509+00:00"}
+[01:35:01.555] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:01.555] Browser LOG     💓 WebSocket heartbeat received
+[01:35:01.555] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:22.110965+00:00"}
+[01:35:01.555] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:01.555] Browser LOG     💓 WebSocket heartbeat received
+[01:35:01.555] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:23.120922+00:00"}
+[01:35:01.555] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:01.555] Browser LOG     💓 WebSocket heartbeat received
+[01:35:01.555] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:23.121622+00:00"}
+[01:35:01.555] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:01.555] Browser LOG     💓 WebSocket heartbeat received
+[01:35:01.555] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:24.128738+00:00"}
+[01:35:01.555] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:01.555] Browser LOG     💓 WebSocket heartbeat received
+[01:35:01.555] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:24.129065+00:00"}
+[01:35:01.555] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:01.555] Browser LOG     💓 WebSocket heartbeat received
+[01:35:01.555] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:25.132609+00:00"}
+[01:35:01.555] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:01.555] Browser LOG     💓 WebSocket heartbeat received
+[01:35:01.555] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:25.132887+00:00"}
+[01:35:01.555] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:01.555] Browser LOG     💓 WebSocket heartbeat received
+[01:35:01.556] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:26.137588+00:00"}
+[01:35:01.556] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:01.556] Browser LOG     💓 WebSocket heartbeat received
+[01:35:01.556] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:26.137999+00:00"}
+[01:35:01.556] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:01.556] Browser LOG     💓 WebSocket heartbeat received
+[01:35:02.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:27.254662+00:00"}
+[01:35:02.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:02.548] Browser LOG     💓 WebSocket heartbeat received
+[01:35:02.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:27.255253+00:00"}
+[01:35:02.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:02.548] Browser LOG     💓 WebSocket heartbeat received
+[01:35:03.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:28.260370+00:00"}
+[01:35:03.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:03.551] Browser LOG     💓 WebSocket heartbeat received
+[01:35:03.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:28.261118+00:00"}
+[01:35:03.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:03.551] Browser LOG     💓 WebSocket heartbeat received
+[01:35:04.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:29.262002+00:00"}
+[01:35:04.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:04.547] Browser LOG     💓 WebSocket heartbeat received
+[01:35:04.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:29.262653+00:00"}
+[01:35:04.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:04.547] Browser LOG     💓 WebSocket heartbeat received
+[01:35:05.543] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:30.266042+00:00"}
+[01:35:05.543] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:05.543] Browser LOG     💓 WebSocket heartbeat received
+[01:35:05.543] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:30.266813+00:00"}
+[01:35:05.543] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:05.543] Browser LOG     💓 WebSocket heartbeat received
+[01:35:06.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:31.268072+00:00"}
+[01:35:06.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:06.546] Browser LOG     💓 WebSocket heartbeat received
+[01:35:06.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:31.268433+00:00"}
+[01:35:06.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:06.546] Browser LOG     💓 WebSocket heartbeat received
+[01:35:07.538] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:32.274716+00:00"}
+[01:35:07.539] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:07.539] Browser LOG     💓 WebSocket heartbeat received
+[01:35:07.539] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:32.275005+00:00"}
+[01:35:07.539] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:07.539] Browser LOG     💓 WebSocket heartbeat received
+[01:35:08.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:33.279735+00:00"}
+[01:35:08.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:08.549] Browser LOG     💓 WebSocket heartbeat received
+[01:35:08.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:33.280259+00:00"}
+[01:35:08.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:08.549] Browser LOG     💓 WebSocket heartbeat received
+[01:35:09.550] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:34.292078+00:00"}
+[01:35:09.550] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:09.550] Browser LOG     💓 WebSocket heartbeat received
+[01:35:09.550] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:34.292325+00:00"}
+[01:35:09.550] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:09.550] Browser LOG     💓 WebSocket heartbeat received
+[01:35:10.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:35.306838+00:00"}
+[01:35:10.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:10.541] Browser LOG     💓 WebSocket heartbeat received
+[01:35:10.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:35.307403+00:00"}
+[01:35:10.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:10.541] Browser LOG     💓 WebSocket heartbeat received
+[01:35:11.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:36.308446+00:00"}
+[01:35:11.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:11.546] Browser LOG     💓 WebSocket heartbeat received
+[01:35:11.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:36.309144+00:00"}
+[01:35:11.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:11.546] Browser LOG     💓 WebSocket heartbeat received
+[01:35:12.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:37.693680+00:00"}
+[01:35:12.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:12.547] Browser LOG     💓 WebSocket heartbeat received
+[01:35:12.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:37.694199+00:00"}
+[01:35:12.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:12.547] Browser LOG     💓 WebSocket heartbeat received
+[01:35:13.545] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:38.697999+00:00"}
+[01:35:13.545] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:13.545] Browser LOG     💓 WebSocket heartbeat received
+[01:35:13.545] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:38.698518+00:00"}
+[01:35:13.545] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:13.545] Browser LOG     💓 WebSocket heartbeat received
+[01:35:14.543] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:39.700762+00:00"}
+[01:35:14.543] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:14.543] Browser LOG     💓 WebSocket heartbeat received
+[01:35:14.543] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:39.701196+00:00"}
+[01:35:14.543] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:14.543] Browser LOG     💓 WebSocket heartbeat received
+[01:35:15.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:40.702087+00:00"}
+[01:35:15.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:15.553] Browser LOG     💓 WebSocket heartbeat received
+[01:35:15.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:40.702437+00:00"}
+[01:35:15.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:15.553] Browser LOG     💓 WebSocket heartbeat received
+[01:35:16.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:41.704648+00:00"}
+[01:35:16.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:16.548] Browser LOG     💓 WebSocket heartbeat received
+[01:35:16.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:41.705821+00:00"}
+[01:35:16.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:16.548] Browser LOG     💓 WebSocket heartbeat received
+[01:35:17.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:42.717693+00:00"}
+[01:35:17.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:17.548] Browser LOG     💓 WebSocket heartbeat received
+[01:35:17.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:42.718094+00:00"}
+[01:35:17.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:17.548] Browser LOG     💓 WebSocket heartbeat received
+[01:35:18.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:43.725057+00:00"}
+[01:35:18.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:18.551] Browser LOG     💓 WebSocket heartbeat received
+[01:35:18.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:43.725503+00:00"}
+[01:35:18.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:18.551] Browser LOG     💓 WebSocket heartbeat received
+[01:35:19.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:44.735021+00:00"}
+[01:35:19.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:19.548] Browser LOG     💓 WebSocket heartbeat received
+[01:35:19.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:44.736183+00:00"}
+[01:35:19.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:19.548] Browser LOG     💓 WebSocket heartbeat received
+[01:35:20.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:45.751977+00:00"}
+[01:35:20.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:20.552] Browser LOG     💓 WebSocket heartbeat received
+[01:35:20.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:45.752693+00:00"}
+[01:35:20.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:20.552] Browser LOG     💓 WebSocket heartbeat received
+[01:35:21.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:46.998446+00:00"}
+[01:35:21.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:21.541] Browser LOG     💓 WebSocket heartbeat received
+[01:35:21.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:46.999142+00:00"}
+[01:35:21.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:21.541] Browser LOG     💓 WebSocket heartbeat received
+[01:35:22.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:48.000400+00:00"}
+[01:35:22.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:22.552] Browser LOG     💓 WebSocket heartbeat received
+[01:35:22.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:48.000800+00:00"}
+[01:35:22.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:22.552] Browser LOG     💓 WebSocket heartbeat received
+[01:35:23.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:49.014422+00:00"}
+[01:35:23.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:23.553] Browser LOG     💓 WebSocket heartbeat received
+[01:35:23.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:49.015204+00:00"}
+[01:35:23.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:23.553] Browser LOG     💓 WebSocket heartbeat received
+[01:35:24.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:50.019064+00:00"}
+[01:35:24.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:24.547] Browser LOG     💓 WebSocket heartbeat received
+[01:35:24.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:50.019917+00:00"}
+[01:35:24.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:24.547] Browser LOG     💓 WebSocket heartbeat received
+[01:35:25.543] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:51.025281+00:00"}
+[01:35:25.543] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:25.543] Browser LOG     💓 WebSocket heartbeat received
+[01:35:25.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:51.025569+00:00"}
+[01:35:25.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:25.544] Browser LOG     💓 WebSocket heartbeat received
+[01:35:26.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:52.037708+00:00"}
+[01:35:26.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:26.551] Browser LOG     💓 WebSocket heartbeat received
+[01:35:26.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:52.038112+00:00"}
+[01:35:26.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:26.551] Browser LOG     💓 WebSocket heartbeat received
+[01:35:28.542] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:53.185656+00:00"}
+[01:35:28.542] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:28.542] Browser LOG     💓 WebSocket heartbeat received
+[01:35:28.542] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:53.186031+00:00"}
+[01:35:28.542] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:28.542] Browser LOG     💓 WebSocket heartbeat received
+[01:35:29.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:54.191835+00:00"}
+[01:35:29.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:29.547] Browser LOG     💓 WebSocket heartbeat received
+[01:35:29.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:54.192661+00:00"}
+[01:35:29.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:29.547] Browser LOG     💓 WebSocket heartbeat received
+[01:35:30.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:55.193761+00:00"}
+[01:35:30.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:30.552] Browser LOG     💓 WebSocket heartbeat received
+[01:35:30.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:55.194347+00:00"}
+[01:35:30.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:30.552] Browser LOG     💓 WebSocket heartbeat received
+[01:35:31.554] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:56.201440+00:00"}
+[01:35:31.554] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:31.554] Browser LOG     💓 WebSocket heartbeat received
+[01:35:31.554] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:56.201849+00:00"}
+[01:35:31.554] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:31.554] Browser LOG     💓 WebSocket heartbeat received
+[01:35:32.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:57.203435+00:00"}
+[01:35:32.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:32.551] Browser LOG     💓 WebSocket heartbeat received
+[01:35:32.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:57.203147+00:00"}
+[01:35:32.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:32.551] Browser LOG     💓 WebSocket heartbeat received
+[01:35:33.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:58.214743+00:00"}
+[01:35:33.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:33.553] Browser LOG     💓 WebSocket heartbeat received
+[01:35:33.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:58.215305+00:00"}
+[01:35:33.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:33.553] Browser LOG     💓 WebSocket heartbeat received
+[01:35:34.550] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:59.217699+00:00"}
+[01:35:34.550] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:34.550] Browser LOG     💓 WebSocket heartbeat received
+[01:35:34.550] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:43:59.218026+00:00"}
+[01:35:34.550] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:34.550] Browser LOG     💓 WebSocket heartbeat received
+[01:35:35.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:00.232339+00:00"}
+[01:35:35.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:35.553] Browser LOG     💓 WebSocket heartbeat received
+[01:35:35.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:00.232668+00:00"}
+[01:35:35.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:35.553] Browser LOG     💓 WebSocket heartbeat received
+[01:35:36.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:01.235347+00:00"}
+[01:35:36.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:36.552] Browser LOG     💓 WebSocket heartbeat received
+[01:35:36.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:01.236869+00:00"}
+[01:35:36.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:36.552] Browser LOG     💓 WebSocket heartbeat received
+[01:35:37.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:02.382406+00:00"}
+[01:35:37.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:37.548] Browser LOG     💓 WebSocket heartbeat received
+[01:35:37.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:02.382909+00:00"}
+[01:35:37.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:37.548] Browser LOG     💓 WebSocket heartbeat received
+[01:35:38.670] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:03.385438+00:00"}
+[01:35:38.671] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:38.671] Browser LOG     💓 WebSocket heartbeat received
+[01:35:38.671] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:03.385867+00:00"}
+[01:35:38.671] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:38.671] Browser LOG     💓 WebSocket heartbeat received
+[01:35:39.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:04.397845+00:00"}
+[01:35:39.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:39.547] Browser LOG     💓 WebSocket heartbeat received
+[01:35:39.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:04.399058+00:00"}
+[01:35:39.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:39.547] Browser LOG     💓 WebSocket heartbeat received
+[01:35:46.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:05.458841+00:00"}
+[01:35:46.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:46.544] Browser LOG     💓 WebSocket heartbeat received
+[01:35:46.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:05.459533+00:00"}
+[01:35:46.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:46.544] Browser LOG     💓 WebSocket heartbeat received
+[01:35:46.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:06.471620+00:00"}
+[01:35:46.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:46.544] Browser LOG     💓 WebSocket heartbeat received
+[01:35:46.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:06.471999+00:00"}
+[01:35:46.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:46.544] Browser LOG     💓 WebSocket heartbeat received
+[01:35:46.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:07.478000+00:00"}
+[01:35:46.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:46.544] Browser LOG     💓 WebSocket heartbeat received
+[01:35:46.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:08.493574+00:00"}
+[01:35:46.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:46.544] Browser LOG     💓 WebSocket heartbeat received
+[01:35:46.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:09.501050+00:00"}
+[01:35:46.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:46.544] Browser LOG     💓 WebSocket heartbeat received
+[01:35:46.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:10.511481+00:00"}
+[01:35:46.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:46.544] Browser LOG     💓 WebSocket heartbeat received
+[01:35:46.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:07.480237+00:00"}
+[01:35:46.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:46.544] Browser LOG     💓 WebSocket heartbeat received
+[01:35:46.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:08.493942+00:00"}
+[01:35:46.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:46.544] Browser LOG     💓 WebSocket heartbeat received
+[01:35:46.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:09.501420+00:00"}
+[01:35:46.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:46.544] Browser LOG     💓 WebSocket heartbeat received
+[01:35:46.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:10.512101+00:00"}
+[01:35:46.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:46.544] Browser LOG     💓 WebSocket heartbeat received
+[01:35:46.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:11.720461+00:00"}
+[01:35:46.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:46.544] Browser LOG     💓 WebSocket heartbeat received
+[01:35:46.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:11.720979+00:00"}
+[01:35:46.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:46.544] Browser LOG     💓 WebSocket heartbeat received
+[01:35:47.543] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:12.727495+00:00"}
+[01:35:47.543] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:47.543] Browser LOG     💓 WebSocket heartbeat received
+[01:35:47.543] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:12.727947+00:00"}
+[01:35:47.543] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:47.543] Browser LOG     💓 WebSocket heartbeat received
+[01:35:48.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:13.742614+00:00"}
+[01:35:48.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:48.548] Browser LOG     💓 WebSocket heartbeat received
+[01:35:48.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:13.743174+00:00"}
+[01:35:48.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:48.548] Browser LOG     💓 WebSocket heartbeat received
+[01:35:49.545] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:14.877449+00:00"}
+[01:35:49.545] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:49.545] Browser LOG     💓 WebSocket heartbeat received
+[01:35:49.545] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:14.878543+00:00"}
+[01:35:49.545] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:49.545] Browser LOG     💓 WebSocket heartbeat received
+[01:35:50.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:15.888573+00:00"}
+[01:35:50.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:50.546] Browser LOG     💓 WebSocket heartbeat received
+[01:35:50.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:15.889025+00:00"}
+[01:35:50.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:50.546] Browser LOG     💓 WebSocket heartbeat received
+[01:35:51.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:16.902915+00:00"}
+[01:35:51.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:51.548] Browser LOG     💓 WebSocket heartbeat received
+[01:35:51.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:16.903503+00:00"}
+[01:35:51.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:51.548] Browser LOG     💓 WebSocket heartbeat received
+[01:35:52.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:17.913242+00:00"}
+[01:35:52.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:52.541] Browser LOG     💓 WebSocket heartbeat received
+[01:35:52.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:17.913828+00:00"}
+[01:35:52.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:52.542] Browser LOG     💓 WebSocket heartbeat received
+[01:35:53.545] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:18.915147+00:00"}
+[01:35:53.545] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:53.545] Browser LOG     💓 WebSocket heartbeat received
+[01:35:53.545] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:18.915589+00:00"}
+[01:35:53.545] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:53.545] Browser LOG     💓 WebSocket heartbeat received
+[01:35:54.539] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:19.918261+00:00"}
+[01:35:54.539] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:54.539] Browser LOG     💓 WebSocket heartbeat received
+[01:35:54.539] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:19.919733+00:00"}
+[01:35:54.539] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:54.539] Browser LOG     💓 WebSocket heartbeat received
+[01:35:55.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:20.926905+00:00"}
+[01:35:55.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:55.541] Browser LOG     💓 WebSocket heartbeat received
+[01:35:55.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:20.927504+00:00"}
+[01:35:55.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:55.541] Browser LOG     💓 WebSocket heartbeat received
+[01:35:56.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:21.942757+00:00"}
+[01:35:56.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:56.544] Browser LOG     💓 WebSocket heartbeat received
+[01:35:56.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:21.943053+00:00"}
+[01:35:56.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:56.544] Browser LOG     💓 WebSocket heartbeat received
+[01:35:57.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:22.948068+00:00"}
+[01:35:57.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:57.541] Browser LOG     💓 WebSocket heartbeat received
+[01:35:57.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:22.948652+00:00"}
+[01:35:57.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:35:57.541] Browser LOG     💓 WebSocket heartbeat received
+[01:36:08.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:24.060289+00:00"}
+[01:36:08.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:08.546] Browser LOG     💓 WebSocket heartbeat received
+[01:36:08.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:24.060732+00:00"}
+[01:36:08.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:08.546] Browser LOG     💓 WebSocket heartbeat received
+[01:36:08.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:25.062864+00:00"}
+[01:36:08.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:08.546] Browser LOG     💓 WebSocket heartbeat received
+[01:36:08.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:25.063376+00:00"}
+[01:36:08.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:08.546] Browser LOG     💓 WebSocket heartbeat received
+[01:36:08.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:26.070889+00:00"}
+[01:36:08.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:08.546] Browser LOG     💓 WebSocket heartbeat received
+[01:36:08.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:26.071547+00:00"}
+[01:36:08.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:08.546] Browser LOG     💓 WebSocket heartbeat received
+[01:36:08.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:27.080452+00:00"}
+[01:36:08.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:08.546] Browser LOG     💓 WebSocket heartbeat received
+[01:36:08.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:27.081102+00:00"}
+[01:36:08.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:08.546] Browser LOG     💓 WebSocket heartbeat received
+[01:36:08.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:28.093370+00:00"}
+[01:36:08.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:08.546] Browser LOG     💓 WebSocket heartbeat received
+[01:36:08.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:28.094522+00:00"}
+[01:36:08.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:08.546] Browser LOG     💓 WebSocket heartbeat received
+[01:36:08.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:29.103944+00:00"}
+[01:36:08.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:08.546] Browser LOG     💓 WebSocket heartbeat received
+[01:36:08.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:29.104503+00:00"}
+[01:36:08.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:08.546] Browser LOG     💓 WebSocket heartbeat received
+[01:36:08.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:30.113349+00:00"}
+[01:36:08.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:08.546] Browser LOG     💓 WebSocket heartbeat received
+[01:36:08.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:30.113837+00:00"}
+[01:36:08.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:08.546] Browser LOG     💓 WebSocket heartbeat received
+[01:36:08.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:31.121523+00:00"}
+[01:36:08.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:08.546] Browser LOG     💓 WebSocket heartbeat received
+[01:36:08.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:31.121996+00:00"}
+[01:36:08.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:08.546] Browser LOG     💓 WebSocket heartbeat received
+[01:36:08.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:32.133047+00:00"}
+[01:36:08.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:08.547] Browser LOG     💓 WebSocket heartbeat received
+[01:36:08.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:32.133681+00:00"}
+[01:36:08.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:08.547] Browser LOG     💓 WebSocket heartbeat received
+[01:36:08.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:33.134347+00:00"}
+[01:36:08.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:08.547] Browser LOG     💓 WebSocket heartbeat received
+[01:36:08.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:33.134641+00:00"}
+[01:36:08.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:08.547] Browser LOG     💓 WebSocket heartbeat received
+[01:36:09.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:34.143103+00:00"}
+[01:36:09.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:09.553] Browser LOG     💓 WebSocket heartbeat received
+[01:36:09.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:34.143501+00:00"}
+[01:36:09.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:09.553] Browser LOG     💓 WebSocket heartbeat received
+[01:36:10.543] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:35.155799+00:00"}
+[01:36:10.543] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:10.543] Browser LOG     💓 WebSocket heartbeat received
+[01:36:10.543] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:35.156823+00:00"}
+[01:36:10.543] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:10.543] Browser LOG     💓 WebSocket heartbeat received
+[01:36:11.550] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:36.444205+00:00"}
+[01:36:11.550] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:11.550] Browser LOG     💓 WebSocket heartbeat received
+[01:36:11.550] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:36.444529+00:00"}
+[01:36:11.550] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:11.550] Browser LOG     💓 WebSocket heartbeat received
+[01:36:12.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:37.448956+00:00"}
+[01:36:12.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:12.552] Browser LOG     💓 WebSocket heartbeat received
+[01:36:12.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:37.449461+00:00"}
+[01:36:12.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:12.552] Browser LOG     💓 WebSocket heartbeat received
+[01:36:13.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:38.463190+00:00"}
+[01:36:13.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:13.548] Browser LOG     💓 WebSocket heartbeat received
+[01:36:13.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:38.463700+00:00"}
+[01:36:13.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:13.548] Browser LOG     💓 WebSocket heartbeat received
+[01:36:14.545] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:39.464496+00:00"}
+[01:36:14.545] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:14.545] Browser LOG     💓 WebSocket heartbeat received
+[01:36:14.545] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:39.465092+00:00"}
+[01:36:14.545] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:14.545] Browser LOG     💓 WebSocket heartbeat received
+[01:36:15.550] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:40.467477+00:00"}
+[01:36:15.550] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:15.550] Browser LOG     💓 WebSocket heartbeat received
+[01:36:15.550] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:40.468112+00:00"}
+[01:36:15.550] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:15.550] Browser LOG     💓 WebSocket heartbeat received
+[01:36:16.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:41.468967+00:00"}
+[01:36:16.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:16.547] Browser LOG     💓 WebSocket heartbeat received
+[01:36:16.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:41.469258+00:00"}
+[01:36:16.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:16.547] Browser LOG     💓 WebSocket heartbeat received
+[01:36:17.539] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:42.474925+00:00"}
+[01:36:17.539] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:17.539] Browser LOG     💓 WebSocket heartbeat received
+[01:36:17.539] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:42.475397+00:00"}
+[01:36:17.539] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:17.539] Browser LOG     💓 WebSocket heartbeat received
+[01:36:18.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:43.481587+00:00"}
+[01:36:18.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:18.541] Browser LOG     💓 WebSocket heartbeat received
+[01:36:18.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:43.481909+00:00"}
+[01:36:18.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:18.541] Browser LOG     💓 WebSocket heartbeat received
+[01:36:19.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:44.707649+00:00"}
+[01:36:19.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:19.547] Browser LOG     💓 WebSocket heartbeat received
+[01:36:19.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:44.708040+00:00"}
+[01:36:19.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:19.547] Browser LOG     💓 WebSocket heartbeat received
+[01:36:20.543] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:45.709578+00:00"}
+[01:36:20.543] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:20.543] Browser LOG     💓 WebSocket heartbeat received
+[01:36:20.543] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:45.710970+00:00"}
+[01:36:20.543] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:20.543] Browser LOG     💓 WebSocket heartbeat received
+[01:36:21.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:46.724833+00:00"}
+[01:36:21.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:21.552] Browser LOG     💓 WebSocket heartbeat received
+[01:36:21.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:46.725484+00:00"}
+[01:36:21.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:21.552] Browser LOG     💓 WebSocket heartbeat received
+[01:36:22.540] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:47.735780+00:00"}
+[01:36:22.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:22.541] Browser LOG     💓 WebSocket heartbeat received
+[01:36:22.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:47.736109+00:00"}
+[01:36:22.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:22.541] Browser LOG     💓 WebSocket heartbeat received
+[01:36:23.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:48.738900+00:00"}
+[01:36:23.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:23.541] Browser LOG     💓 WebSocket heartbeat received
+[01:36:23.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:48.739197+00:00"}
+[01:36:23.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:23.541] Browser LOG     💓 WebSocket heartbeat received
+[01:36:24.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:49.740456+00:00"}
+[01:36:24.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:24.552] Browser LOG     💓 WebSocket heartbeat received
+[01:36:24.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:49.741013+00:00"}
+[01:36:24.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:24.552] Browser LOG     💓 WebSocket heartbeat received
+[01:36:25.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:50.755557+00:00"}
+[01:36:25.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:25.553] Browser LOG     💓 WebSocket heartbeat received
+[01:36:25.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:50.756227+00:00"}
+[01:36:25.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:25.553] Browser LOG     💓 WebSocket heartbeat received
+[01:36:26.550] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:51.769356+00:00"}
+[01:36:26.550] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:26.550] Browser LOG     💓 WebSocket heartbeat received
+[01:36:26.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:51.769957+00:00"}
+[01:36:26.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:26.551] Browser LOG     💓 WebSocket heartbeat received
+[01:36:27.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:52.785162+00:00"}
+[01:36:27.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:27.547] Browser LOG     💓 WebSocket heartbeat received
+[01:36:27.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:52.785503+00:00"}
+[01:36:27.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:27.547] Browser LOG     💓 WebSocket heartbeat received
+[01:36:28.554] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:53.785944+00:00"}
+[01:36:28.554] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:28.554] Browser LOG     💓 WebSocket heartbeat received
+[01:36:28.554] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:53.786952+00:00"}
+[01:36:28.554] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:28.554] Browser LOG     💓 WebSocket heartbeat received
+[01:36:29.563] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:54.788651+00:00"}
+[01:36:29.564] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:29.564] Browser LOG     💓 WebSocket heartbeat received
+[01:36:29.564] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:54.788923+00:00"}
+[01:36:29.564] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:29.564] Browser LOG     💓 WebSocket heartbeat received
+[01:36:30.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:55.801291+00:00"}
+[01:36:30.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:30.553] Browser LOG     💓 WebSocket heartbeat received
+[01:36:30.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:55.801787+00:00"}
+[01:36:30.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:30.553] Browser LOG     💓 WebSocket heartbeat received
+[01:36:31.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:56.804106+00:00"}
+[01:36:31.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:31.551] Browser LOG     💓 WebSocket heartbeat received
+[01:36:31.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:56.804453+00:00"}
+[01:36:31.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:31.551] Browser LOG     💓 WebSocket heartbeat received
+[01:36:32.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:57.818035+00:00"}
+[01:36:32.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:32.552] Browser LOG     💓 WebSocket heartbeat received
+[01:36:32.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:57.818626+00:00"}
+[01:36:32.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:32.552] Browser LOG     💓 WebSocket heartbeat received
+[01:36:33.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:58.833325+00:00"}
+[01:36:33.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:33.546] Browser LOG     💓 WebSocket heartbeat received
+[01:36:33.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:58.834043+00:00"}
+[01:36:33.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:33.546] Browser LOG     💓 WebSocket heartbeat received
+[01:36:34.545] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:59.912489+00:00"}
+[01:36:34.545] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:34.545] Browser LOG     💓 WebSocket heartbeat received
+[01:36:34.545] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:44:59.913151+00:00"}
+[01:36:34.545] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:34.545] Browser LOG     💓 WebSocket heartbeat received
+[01:36:35.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:00.915269+00:00"}
+[01:36:35.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:35.544] Browser LOG     💓 WebSocket heartbeat received
+[01:36:35.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:00.915824+00:00"}
+[01:36:35.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:35.544] Browser LOG     💓 WebSocket heartbeat received
+[01:36:36.543] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:01.927139+00:00"}
+[01:36:36.543] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:36.543] Browser LOG     💓 WebSocket heartbeat received
+[01:36:36.543] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:01.927518+00:00"}
+[01:36:36.543] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:36.543] Browser LOG     💓 WebSocket heartbeat received
+[01:36:37.540] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:02.930658+00:00"}
+[01:36:37.540] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:37.540] Browser LOG     💓 WebSocket heartbeat received
+[01:36:37.540] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:02.931497+00:00"}
+[01:36:37.540] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:37.540] Browser LOG     💓 WebSocket heartbeat received
+[01:36:38.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:03.942853+00:00"}
+[01:36:38.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:38.541] Browser LOG     💓 WebSocket heartbeat received
+[01:36:38.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:03.943249+00:00"}
+[01:36:38.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:38.541] Browser LOG     💓 WebSocket heartbeat received
+[01:36:39.550] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:04.943586+00:00"}
+[01:36:39.550] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:39.550] Browser LOG     💓 WebSocket heartbeat received
+[01:36:39.550] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:04.944858+00:00"}
+[01:36:39.550] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:39.550] Browser LOG     💓 WebSocket heartbeat received
+[01:36:43.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:05.949800+00:00"}
+[01:36:43.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:43.541] Browser LOG     💓 WebSocket heartbeat received
+[01:36:43.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:05.950574+00:00"}
+[01:36:43.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:43.541] Browser LOG     💓 WebSocket heartbeat received
+[01:36:43.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:06.957827+00:00"}
+[01:36:43.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:43.541] Browser LOG     💓 WebSocket heartbeat received
+[01:36:43.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:06.958550+00:00"}
+[01:36:43.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:43.541] Browser LOG     💓 WebSocket heartbeat received
+[01:36:43.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:07.970965+00:00"}
+[01:36:43.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:43.541] Browser LOG     💓 WebSocket heartbeat received
+[01:36:43.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:07.971248+00:00"}
+[01:36:43.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:43.541] Browser LOG     💓 WebSocket heartbeat received
+[01:36:44.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:09.619271+00:00"}
+[01:36:44.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:44.551] Browser LOG     💓 WebSocket heartbeat received
+[01:36:44.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:09.619882+00:00"}
+[01:36:44.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:44.551] Browser LOG     💓 WebSocket heartbeat received
+[01:36:45.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:10.633610+00:00"}
+[01:36:45.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:45.552] Browser LOG     💓 WebSocket heartbeat received
+[01:36:45.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:10.634164+00:00"}
+[01:36:45.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:45.552] Browser LOG     💓 WebSocket heartbeat received
+[01:36:46.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:11.635050+00:00"}
+[01:36:46.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:46.551] Browser LOG     💓 WebSocket heartbeat received
+[01:36:46.551] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:11.635910+00:00"}
+[01:36:46.551] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:46.551] Browser LOG     💓 WebSocket heartbeat received
+[01:36:47.550] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:12.651460+00:00"}
+[01:36:47.550] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:47.550] Browser LOG     💓 WebSocket heartbeat received
+[01:36:47.550] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:12.652395+00:00"}
+[01:36:47.550] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:47.550] Browser LOG     💓 WebSocket heartbeat received
+[01:36:48.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:13.653402+00:00"}
+[01:36:48.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:48.548] Browser LOG     💓 WebSocket heartbeat received
+[01:36:48.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:13.653794+00:00"}
+[01:36:48.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:48.548] Browser LOG     💓 WebSocket heartbeat received
+[01:36:49.542] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:14.654518+00:00"}
+[01:36:49.542] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:49.542] Browser LOG     💓 WebSocket heartbeat received
+[01:36:49.542] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:14.654920+00:00"}
+[01:36:49.542] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:49.542] Browser LOG     💓 WebSocket heartbeat received
+[01:36:50.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:15.662669+00:00"}
+[01:36:50.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:50.553] Browser LOG     💓 WebSocket heartbeat received
+[01:36:50.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:15.663522+00:00"}
+[01:36:50.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:50.553] Browser LOG     💓 WebSocket heartbeat received
+[01:36:51.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:16.665953+00:00"}
+[01:36:51.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:51.548] Browser LOG     💓 WebSocket heartbeat received
+[01:36:51.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:16.667154+00:00"}
+[01:36:51.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:51.548] Browser LOG     💓 WebSocket heartbeat received
+[01:36:52.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:17.667814+00:00"}
+[01:36:52.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:52.544] Browser LOG     💓 WebSocket heartbeat received
+[01:36:52.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:17.668723+00:00"}
+[01:36:52.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:52.544] Browser LOG     💓 WebSocket heartbeat received
+[01:36:53.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:18.786322+00:00"}
+[01:36:53.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:53.541] Browser LOG     💓 WebSocket heartbeat received
+[01:36:53.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:18.786889+00:00"}
+[01:36:53.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:53.541] Browser LOG     💓 WebSocket heartbeat received
+[01:36:54.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:19.795006+00:00"}
+[01:36:54.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:54.541] Browser LOG     💓 WebSocket heartbeat received
+[01:36:54.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:19.796060+00:00"}
+[01:36:54.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:54.541] Browser LOG     💓 WebSocket heartbeat received
+[01:36:55.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:20.798229+00:00"}
+[01:36:55.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:55.544] Browser LOG     💓 WebSocket heartbeat received
+[01:36:55.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:20.798670+00:00"}
+[01:36:55.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:55.544] Browser LOG     💓 WebSocket heartbeat received
+[01:36:56.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:21.824156+00:00"}
+[01:36:56.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:56.541] Browser LOG     💓 WebSocket heartbeat received
+[01:36:56.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:21.824522+00:00"}
+[01:36:56.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:56.541] Browser LOG     💓 WebSocket heartbeat received
+[01:36:57.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:22.827136+00:00"}
+[01:36:57.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:57.541] Browser LOG     💓 WebSocket heartbeat received
+[01:36:57.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:22.827931+00:00"}
+[01:36:57.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:57.541] Browser LOG     💓 WebSocket heartbeat received
+[01:36:58.540] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:23.837780+00:00"}
+[01:36:58.540] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:58.540] Browser LOG     💓 WebSocket heartbeat received
+[01:36:58.540] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:23.838253+00:00"}
+[01:36:58.540] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:58.540] Browser LOG     💓 WebSocket heartbeat received
+[01:36:59.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:24.844072+00:00"}
+[01:36:59.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:59.541] Browser LOG     💓 WebSocket heartbeat received
+[01:36:59.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:24.845119+00:00"}
+[01:36:59.541] Browser LOG     🔍 DATA SOURCE: undefined
+[01:36:59.541] Browser LOG     💓 WebSocket heartbeat received
+[01:37:00.555] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:25.848445+00:00"}
+[01:37:00.555] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:00.555] Browser LOG     💓 WebSocket heartbeat received
+[01:37:00.555] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:25.848833+00:00"}
+[01:37:00.555] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:00.555] Browser LOG     💓 WebSocket heartbeat received
+[01:37:01.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:26.852797+00:00"}
+[01:37:01.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:01.547] Browser LOG     💓 WebSocket heartbeat received
+[01:37:01.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:26.853269+00:00"}
+[01:37:01.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:01.547] Browser LOG     💓 WebSocket heartbeat received
+[01:37:03.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:28.142642+00:00"}
+[01:37:03.550] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:03.550] Browser LOG     💓 WebSocket heartbeat received
+[01:37:03.550] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:28.142985+00:00"}
+[01:37:03.550] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:03.550] Browser LOG     💓 WebSocket heartbeat received
+[01:37:04.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:29.152936+00:00"}
+[01:37:04.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:04.546] Browser LOG     💓 WebSocket heartbeat received
+[01:37:04.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:29.153289+00:00"}
+[01:37:04.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:04.546] Browser LOG     💓 WebSocket heartbeat received
+[01:37:05.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:30.164805+00:00"}
+[01:37:05.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:05.546] Browser LOG     💓 WebSocket heartbeat received
+[01:37:05.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:30.165286+00:00"}
+[01:37:05.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:05.546] Browser LOG     💓 WebSocket heartbeat received
+[01:37:06.708] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:31.271599+00:00"}
+[01:37:06.708] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:06.708] Browser LOG     💓 WebSocket heartbeat received
+[01:37:06.708] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:31.272364+00:00"}
+[01:37:06.708] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:06.708] Browser LOG     💓 WebSocket heartbeat received
+[01:37:07.550] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:32.297330+00:00"}
+[01:37:07.550] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:07.550] Browser LOG     💓 WebSocket heartbeat received
+[01:37:07.550] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:32.297760+00:00"}
+[01:37:07.550] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:07.550] Browser LOG     💓 WebSocket heartbeat received
+[01:37:08.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:33.297870+00:00"}
+[01:37:08.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:08.552] Browser LOG     💓 WebSocket heartbeat received
+[01:37:08.552] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:33.298298+00:00"}
+[01:37:08.552] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:08.552] Browser LOG     💓 WebSocket heartbeat received
+[01:37:09.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:34.304377+00:00"}
+[01:37:09.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:09.546] Browser LOG     💓 WebSocket heartbeat received
+[01:37:09.546] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:34.304738+00:00"}
+[01:37:09.546] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:09.546] Browser LOG     💓 WebSocket heartbeat received
+[01:37:10.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:35.312051+00:00"}
+[01:37:10.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:10.544] Browser LOG     💓 WebSocket heartbeat received
+[01:37:10.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:35.312304+00:00"}
+[01:37:10.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:10.544] Browser LOG     💓 WebSocket heartbeat received
+[01:37:11.542] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:36.316860+00:00"}
+[01:37:11.542] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:11.542] Browser LOG     💓 WebSocket heartbeat received
+[01:37:11.542] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:36.317218+00:00"}
+[01:37:11.542] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:11.542] Browser LOG     💓 WebSocket heartbeat received
+[01:37:12.404] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:37.331156+00:00"}
+[01:37:12.404] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:12.404] Browser LOG     💓 WebSocket heartbeat received
+[01:37:12.404] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:37.331899+00:00"}
+[01:37:12.404] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:12.404] Browser LOG     💓 WebSocket heartbeat received
+[01:37:12.901] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:38.337512+00:00"}
+[01:37:12.902] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:12.902] Browser LOG     💓 WebSocket heartbeat received
+[01:37:12.902] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:38.338727+00:00"}
+[01:37:12.902] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:12.902] Browser LOG     💓 WebSocket heartbeat received
+[01:37:13.857] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:39.346886+00:00"}
+[01:37:13.857] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:13.857] Browser LOG     💓 WebSocket heartbeat received
+[01:37:13.857] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:39.347294+00:00"}
+[01:37:13.857] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:13.857] Browser LOG     💓 WebSocket heartbeat received
+[01:37:15.041] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:40.522792+00:00"}
+[01:37:15.041] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:15.041] Browser LOG     💓 WebSocket heartbeat received
+[01:37:15.041] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:40.523263+00:00"}
+[01:37:15.041] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:15.041] Browser LOG     💓 WebSocket heartbeat received
+[01:37:16.929] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:42.303876+00:00"}
+[01:37:16.929] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:16.929] Browser LOG     💓 WebSocket heartbeat received
+[01:37:16.929] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:42.304779+00:00"}
+[01:37:16.929] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:16.929] Browser LOG     💓 WebSocket heartbeat received
+[01:37:18.206] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:43.316743+00:00"}
+[01:37:18.206] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:18.206] Browser LOG     💓 WebSocket heartbeat received
+[01:37:18.206] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:43.317237+00:00"}
+[01:37:18.206] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:18.206] Browser LOG     💓 WebSocket heartbeat received
+[01:37:18.847] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:44.320691+00:00"}
+[01:37:18.847] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:18.847] Browser LOG     💓 WebSocket heartbeat received
+[01:37:18.847] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:44.322489+00:00"}
+[01:37:18.847] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:18.847] Browser LOG     💓 WebSocket heartbeat received
+[01:37:19.853] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:45.326352+00:00"}
+[01:37:19.853] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:19.853] Browser LOG     💓 WebSocket heartbeat received
+[01:37:19.853] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:45.335772+00:00"}
+[01:37:19.853] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:19.853] Browser LOG     💓 WebSocket heartbeat received
+[01:37:20.850] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:46.344964+00:00"}
+[01:37:20.850] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:20.851] Browser LOG     💓 WebSocket heartbeat received
+[01:37:20.851] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:46.345781+00:00"}
+[01:37:20.851] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:20.851] Browser LOG     💓 WebSocket heartbeat received
+[01:37:21.865] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:47.360011+00:00"}
+[01:37:21.865] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:21.865] Browser LOG     💓 WebSocket heartbeat received
+[01:37:21.865] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:47.360749+00:00"}
+[01:37:21.865] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:21.865] Browser LOG     💓 WebSocket heartbeat received
+[01:37:22.880] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:48.376165+00:00"}
+[01:37:22.883] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:22.883] Browser LOG     💓 WebSocket heartbeat received
+[01:37:22.883] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:48.376827+00:00"}
+[01:37:22.883] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:22.883] Browser LOG     💓 WebSocket heartbeat received
+[01:37:23.878] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:49.378279+00:00"}
+[01:37:23.878] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:23.878] Browser LOG     💓 WebSocket heartbeat received
+[01:37:23.878] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:49.378713+00:00"}
+[01:37:23.878] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:23.878] Browser LOG     💓 WebSocket heartbeat received
+[01:37:24.896] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:50.393437+00:00"}
+[01:37:24.896] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:24.896] Browser LOG     💓 WebSocket heartbeat received
+[01:37:24.896] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:50.394154+00:00"}
+[01:37:24.896] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:24.896] Browser LOG     💓 WebSocket heartbeat received
+[01:37:26.106] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:51.603340+00:00"}
+[01:37:26.106] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:26.106] Browser LOG     💓 WebSocket heartbeat received
+[01:37:26.106] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:51.604254+00:00"}
+[01:37:26.106] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:26.106] Browser LOG     💓 WebSocket heartbeat received
+[01:37:27.121] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:52.617068+00:00"}
+[01:37:27.121] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:27.121] Browser LOG     💓 WebSocket heartbeat received
+[01:37:27.121] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:52.617697+00:00"}
+[01:37:27.121] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:27.121] Browser LOG     💓 WebSocket heartbeat received
+[01:37:28.124] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:53.620831+00:00"}
+[01:37:28.124] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:28.124] Browser LOG     💓 WebSocket heartbeat received
+[01:37:28.124] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:53.621271+00:00"}
+[01:37:28.124] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:28.124] Browser LOG     💓 WebSocket heartbeat received
+[01:37:29.140] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:54.628435+00:00"}
+[01:37:29.140] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:29.140] Browser LOG     💓 WebSocket heartbeat received
+[01:37:29.140] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:54.629487+00:00"}
+[01:37:29.140] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:29.140] Browser LOG     💓 WebSocket heartbeat received
+[01:37:30.264] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:55.671627+00:00"}
+[01:37:30.264] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:30.264] Browser LOG     💓 WebSocket heartbeat received
+[01:37:30.264] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:55.677195+00:00"}
+[01:37:30.264] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:30.264] Browser LOG     💓 WebSocket heartbeat received
+[01:37:31.283] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:56.692421+00:00"}
+[01:37:31.283] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:31.284] Browser LOG     💓 WebSocket heartbeat received
+[01:37:31.284] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:56.773397+00:00"}
+[01:37:31.284] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:31.284] Browser LOG     💓 WebSocket heartbeat received
+[01:37:32.290] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:57.701506+00:00"}
+[01:37:32.290] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:32.290] Browser LOG     💓 WebSocket heartbeat received
+[01:37:32.290] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:57.788746+00:00"}
+[01:37:32.290] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:32.290] Browser LOG     💓 WebSocket heartbeat received
+[01:37:34.437] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:59.937624+00:00"}
+[01:37:34.437] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:34.437] Browser LOG     💓 WebSocket heartbeat received
+[01:37:34.437] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:45:59.938231+00:00"}
+[01:37:34.437] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:34.437] Browser LOG     💓 WebSocket heartbeat received
+[01:37:35.700] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:00.939835+00:00"}
+[01:37:35.815] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:35.815] Browser LOG     💓 WebSocket heartbeat received
+[01:37:35.815] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:00.940905+00:00"}
+[01:37:35.815] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:35.815] Browser LOG     💓 WebSocket heartbeat received
+[01:37:36.456] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:01.948785+00:00"}
+[01:37:36.456] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:36.456] Browser LOG     💓 WebSocket heartbeat received
+[01:37:36.456] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:01.949409+00:00"}
+[01:37:36.456] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:36.456] Browser LOG     💓 WebSocket heartbeat received
+[01:37:37.540] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:02.959344+00:00"}
+[01:37:37.540] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:37.540] Browser LOG     💓 WebSocket heartbeat received
+[01:37:37.540] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:02.960484+00:00"}
+[01:37:37.540] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:37.540] Browser LOG     💓 WebSocket heartbeat received
+[01:37:39.779] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:03.965204+00:00"}
+[01:37:39.779] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:39.779] Browser LOG     💓 WebSocket heartbeat received
+[01:37:39.779] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:03.965772+00:00"}
+[01:37:39.779] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:39.779] Browser LOG     💓 WebSocket heartbeat received
+[01:37:39.779] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:04.982567+00:00"}
+[01:37:39.779] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:39.779] Browser LOG     💓 WebSocket heartbeat received
+[01:37:39.779] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:04.983209+00:00"}
+[01:37:39.779] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:39.779] Browser LOG     💓 WebSocket heartbeat received
+[01:37:40.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:05.985108+00:00"}
+[01:37:40.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:40.548] Browser LOG     💓 WebSocket heartbeat received
+[01:37:40.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:05.985480+00:00"}
+[01:37:40.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:40.548] Browser LOG     💓 WebSocket heartbeat received
+[01:37:41.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:06.994856+00:00"}
+[01:37:41.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:41.544] Browser LOG     💓 WebSocket heartbeat received
+[01:37:41.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:06.995305+00:00"}
+[01:37:41.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:41.544] Browser LOG     💓 WebSocket heartbeat received
+[01:37:43.899] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:08.567774+00:00"}
+[01:37:43.899] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:43.899] Browser LOG     💓 WebSocket heartbeat received
+[01:37:43.899] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:08.568009+00:00"}
+[01:37:43.899] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:43.899] Browser LOG     💓 WebSocket heartbeat received
+[01:37:44.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:09.569300+00:00"}
+[01:37:44.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:44.547] Browser LOG     💓 WebSocket heartbeat received
+[01:37:44.547] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:09.569614+00:00"}
+[01:37:44.547] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:44.547] Browser LOG     💓 WebSocket heartbeat received
+[01:37:45.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:10.570928+00:00"}
+[01:37:45.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:45.548] Browser LOG     💓 WebSocket heartbeat received
+[01:37:45.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:10.571391+00:00"}
+[01:37:45.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:45.548] Browser LOG     💓 WebSocket heartbeat received
+[01:37:46.573] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:11.581948+00:00"}
+[01:37:46.574] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:46.574] Browser LOG     💓 WebSocket heartbeat received
+[01:37:46.574] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:11.582878+00:00"}
+[01:37:46.574] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:46.574] Browser LOG     💓 WebSocket heartbeat received
+[01:37:47.696] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:12.593121+00:00"}
+[01:37:47.696] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:47.696] Browser LOG     💓 WebSocket heartbeat received
+[01:37:47.696] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:12.593744+00:00"}
+[01:37:47.696] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:47.696] Browser LOG     💓 WebSocket heartbeat received
+[01:37:48.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:13.604780+00:00"}
+[01:37:48.545] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:48.545] Browser LOG     💓 WebSocket heartbeat received
+[01:37:48.545] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:13.605395+00:00"}
+[01:37:48.545] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:48.545] Browser LOG     💓 WebSocket heartbeat received
+[01:37:52.541] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:15.111487+00:00"}
+[01:37:52.542] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:52.542] Browser LOG     💓 WebSocket heartbeat received
+[01:37:52.542] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:15.110512+00:00"}
+[01:37:52.542] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:52.542] Browser LOG     💓 WebSocket heartbeat received
+[01:37:52.542] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:16.126104+00:00"}
+[01:37:52.542] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:52.542] Browser LOG     💓 WebSocket heartbeat received
+[01:37:52.542] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:16.127298+00:00"}
+[01:37:52.542] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:52.542] Browser LOG     💓 WebSocket heartbeat received
+[01:37:52.542] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:17.142323+00:00"}
+[01:37:52.542] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:52.542] Browser LOG     💓 WebSocket heartbeat received
+[01:37:52.542] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:17.142966+00:00"}
+[01:37:52.542] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:52.542] Browser LOG     💓 WebSocket heartbeat received
+[01:37:53.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:18.158234+00:00"}
+[01:37:53.554] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:53.554] Browser LOG     💓 WebSocket heartbeat received
+[01:37:53.554] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:18.158808+00:00"}
+[01:37:53.554] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:53.554] Browser LOG     💓 WebSocket heartbeat received
+[01:37:54.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:19.300693+00:00"}
+[01:37:54.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:54.553] Browser LOG     💓 WebSocket heartbeat received
+[01:37:54.553] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:19.301111+00:00"}
+[01:37:54.553] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:54.553] Browser LOG     💓 WebSocket heartbeat received
+[01:37:55.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:20.305081+00:00"}
+[01:37:55.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:55.549] Browser LOG     💓 WebSocket heartbeat received
+[01:37:55.549] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:20.306522+00:00"}
+[01:37:55.549] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:55.549] Browser LOG     💓 WebSocket heartbeat received
+[01:37:56.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:21.317767+00:00"}
+[01:37:56.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:56.544] Browser LOG     💓 WebSocket heartbeat received
+[01:37:56.544] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:21.318412+00:00"}
+[01:37:56.544] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:56.544] Browser LOG     💓 WebSocket heartbeat received
+[01:37:57.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:22.319637+00:00"}
+[01:37:57.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:57.548] Browser LOG     💓 WebSocket heartbeat received
+[01:37:57.548] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:22.321214+00:00"}
+[01:37:57.548] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:57.548] Browser LOG     💓 WebSocket heartbeat received
+[01:37:58.661] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:23.334465+00:00"}
+[01:37:58.661] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:58.661] Browser LOG     💓 WebSocket heartbeat received
+[01:37:58.661] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:23.335351+00:00"}
+[01:37:58.661] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:58.661] Browser LOG     💓 WebSocket heartbeat received
+[01:37:59.555] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:24.351217+00:00"}
+[01:37:59.555] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:59.555] Browser LOG     💓 WebSocket heartbeat received
+[01:37:59.555] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:24.352270+00:00"}
+[01:37:59.555] Browser LOG     🔍 DATA SOURCE: undefined
+[01:37:59.555] Browser LOG     💓 WebSocket heartbeat received
+[01:38:00.550] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:25.363310+00:00"}
+[01:38:00.550] Browser LOG     🔍 DATA SOURCE: undefined
+[01:38:00.550] Browser LOG     💓 WebSocket heartbeat received
+[01:38:00.550] Browser LOG     📨 WebSocket message for NIFTY: {"message":"Market data connecting...","status":"heartbeat","symbol":"NIFTY","timestamp":"2026-02-17T16:46:25.363633+00:00"}
+[01:38:00.550] Browser LOG     🔍 DATA SOURCE: undefined
+[01:38:00.550] Browser LOG     💓 WebSocket heartbeat received
