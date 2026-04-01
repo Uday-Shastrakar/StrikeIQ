@@ -320,10 +320,16 @@ export const useWSStore = create<WSStore>((set, get) =>({
       case 'analytics_update': {
         const a = message.analytics || {}
         const spot = a.spot || a.spotPrice || message.spot || 0
+        const timestamp = message.timestamp
+
+        // Skip duplicate updates to prevent infinite loop
+        const prev = get().analytics;
+        if (prev?.timestamp === timestamp) {
+          return;
+        }
 
         // Only log on significant changes (development only)
         if (process.env.NODE_ENV === 'development') {
-           const prev = get().analytics;
            if (prev?.strategy !== a.strategy || prev?.confidence !== a.confidence) {
               console.log("[WS ANALYTICS UPDATE]", {
                 strategy: a.strategy,
@@ -336,12 +342,13 @@ export const useWSStore = create<WSStore>((set, get) =>({
             spotPrice:    spot > 0 ? spot : get().spotPrice,
             liveSpot:     spot > 0 ? spot : get().liveSpot,
             currentSpot:  spot > 0 ? spot : get().currentSpot,
-            lastUpdate:   message.timestamp || Date.now(),
+            lastUpdate:   timestamp || Date.now(),
             aiReady:      true,
 
             analytics: {
               ...get().analytics,
               ...a,
+              timestamp: timestamp, // Add timestamp to track duplicates
 
               strategy:
                 a.strategy !== undefined

@@ -94,13 +94,14 @@ export const ExpectedMovePanel = React.memo(function ExpectedMovePanel() {
     const aiReady = useWSStore(s => s.aiReady);
     const spot = useWSStore(s => s.spot);
     const analysis = useWSStore(s => s.chartAnalysis);
-    const hasData = spot > 0;
+    const hasData = (spot ?? 0) > 0;
     
-    const vol = analysis?.volatility_state;
-    const expectedMove = vol?.expected_move || 0;
-    const breachProb = vol?.breach_probability || 0;
+    // v5.0 Volatility state
+    const vol = (analysis ?? {}).volatility_state;
+    const expectedMove = (vol ?? {}).expected_move ?? 0;
+    const breachProb = (vol ?? {}).breach_probability ?? 0;
 
-    if (!hasData || spot === 0 || expectedMove <= 0) {
+    if (!hasData || (spot ?? 0) === 0 || expectedMove <= 0) {
         return (
             <div className="trading-panel h-full flex flex-col p-6 opacity-40">
                  <SectionLabel>Expected Move (1σ)</SectionLabel>
@@ -169,8 +170,8 @@ export const ExpectedMovePanel = React.memo(function ExpectedMovePanel() {
                     <AlertTriangle size={12} className={breachProb > 0.4 ? 'text-orange-400 animate-pulse' : 'text-slate-600'} />
                     <span className="text-[9px] font-bold font-mono text-slate-600 uppercase tracking-tighter">Expansion Risk Factor</span>
                 </div>
-                <span className="text-[12px] font-black font-mono tabular-nums" style={{ color: breachProb > 0.4 ? '#fb923c' : '#4ade80' }}>
-                    {(breachProb * 100).toFixed(0)}%
+                <span className="text-[12px] font-black font-mono tabular-nums" style={{ color: (breachProb || 0) > 0.4 ? '#fb923c' : '#4ade80' }}>
+                    {((breachProb || 0) * 100).toFixed(0)}%
                 </span>
             </div>
         </div>

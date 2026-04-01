@@ -62,9 +62,9 @@ export function InstitutionalFlowPanel() {
         return val.toFixed(0);
     };
 
-    const total = Math.abs(callVelocity) + Math.abs(putVelocity);
-    const callPct = total > 0 ? (Math.abs(callVelocity) / total) * 100 : 50;
-    const putPct = total > 0 ? (Math.abs(putVelocity) / total) * 100 : 50;
+    const total = Math.abs(callVelocity || 0) + Math.abs(putVelocity || 0);
+    const callPct = total > 0 ? (Math.abs(callVelocity || 0) / total) * 100 : 50;
+    const putPct = total > 0 ? (Math.abs(putVelocity || 0) / total) * 100 : 50;
 
     return (
         <div
@@ -87,13 +87,13 @@ export function InstitutionalFlowPanel() {
                 <div className="p-4 rounded-xl bg-white/[0.03] border border-white/10">
                     <div className="text-[8px] font-bold font-mono text-slate-500 uppercase mb-2">Call Velocity</div>
                     <div className="text-lg font-black font-mono tabular-nums tracking-tight text-green-400">
-                        {formatFlow(callVelocity)}
+                        {formatFlow(callVelocity || 0)}
                     </div>
                 </div>
                 <div className="p-4 rounded-xl bg-white/[0.03] border border-white/10">
                     <div className="text-[8px] font-bold font-mono text-slate-500 uppercase mb-2">Put Velocity</div>
                     <div className="text-lg font-black font-mono tabular-nums tracking-tight text-red-400">
-                        {formatFlow(putVelocity)}
+                        {formatFlow(putVelocity || 0)}
                     </div>
                 </div>
             </div>
@@ -102,8 +102,8 @@ export function InstitutionalFlowPanel() {
             <div className="mb-6 p-4 rounded-xl bg-white/[0.02] border border-white/5">
                 <div className="flex justify-between items-center mb-3">
                     <span className="text-[9px] font-bold font-mono text-slate-500 uppercase tracking-widest">Global Imbalance</span>
-                    <span className="text-xs font-black font-mono tabular-nums" style={{ color: imbalance >= 0 ? '#4ade80' : '#f87171' }}>
-                        {imbalance > 0 ? '+' : ''}{(imbalance * 100).toFixed(1)}%
+                    <span className="text-xs font-black font-mono tabular-nums" style={{ color: (imbalance || 0) >= 0 ? '#4ade80' : '#f87171' }}>
+                        {(imbalance || 0) > 0 ? '+' : ''}{((imbalance || 0) * 100).toFixed(1)}%
                     </span>
                 </div>
                 <div className="h-1 w-full bg-white/5 rounded-full overflow-hidden flex">
@@ -120,13 +120,13 @@ export function InstitutionalFlowPanel() {
                         <div className="h-1 w-24 bg-white/5 mt-1 rounded-full overflow-hidden">
                              <div 
                                 className="h-full bg-blue-500" 
-                                style={{ width: `${intent}%`, boxShadow: '0 0 10px rgba(59,130,246,0.5)' }} 
+                                style={{ width: `${intent || 0}%`, boxShadow: '0 0 10px rgba(59,130,246,0.5)' }} 
                             />
                         </div>
                     </div>
                     <div className="text-right">
                         <span className="text-[14px] font-black font-mono text-white tracking-widest uppercase">
-                            {intent >= 75 ? 'SURGE' : intent >= 50 ? 'STEADY' : 'LATENT'}
+                            {(intent || 0) >= 75 ? 'SURGE' : (intent || 0) >= 50 ? 'STEADY' : 'LATENT'}
                         </span>
                     </div>
                 </div>
@@ -135,20 +135,20 @@ export function InstitutionalFlowPanel() {
                 <div className="grid grid-cols-3 gap-2 mt-4">
                     <div className="text-center p-2 rounded bg-white/5 border border-white/5">
                         <div className="text-[8px] font-mono text-slate-500 uppercase mb-1">RSI</div>
-                        <div className="text-[12px] font-black font-mono" style={{ color: rsi > 70 ? '#f87171' : rsi < 30 ? '#4ade80' : '#94a3b8' }}>
-                            {rsi.toFixed(1)}
+                        <div className="text-[12px] font-black font-mono" style={{ color: (rsi || 0) > 70 ? '#f87171' : (rsi || 0) < 30 ? '#4ade80' : '#94a3b8' }}>
+                            {typeof rsi === 'number' ? rsi.toFixed(1) : '—'}
                         </div>
                     </div>
                     <div className="text-center p-2 rounded bg-white/5 border border-white/5">
                         <div className="text-[8px] font-mono text-slate-500 uppercase mb-1">Momentum</div>
-                        <div className="text-[12px] font-black font-mono" style={{ color: momentum > 0.002 ? '#4ade80' : momentum < -0.002 ? '#f87171' : '#94a3b8' }}>
-                            {momentum !== 0 ? (momentum > 0 ? '+' : '') + (momentum * 100).toFixed(2) + '%' : '0.00'}
+                        <div className="text-[12px] font-black font-mono" style={{ color: (momentum || 0) > 0.002 ? '#4ade80' : (momentum || 0) < -0.002 ? '#f87171' : '#94a3b8' }}>
+                            {momentum !== 0 ? (momentum > 0 ? '+' : '') + ((momentum || 0) * 100).toFixed(2) + '%' : '0.00'}
                         </div>
                     </div>
                     <div className="text-center p-2 rounded bg-white/5 border border-white/5">
                         <div className="text-[8px] font-mono text-slate-500 uppercase mb-1">Structure</div>
                         <div className="text-[12px] font-black font-mono text-cyan-400">
-                            {regime}
+                            {regime || '—'}
                         </div>
                     </div>
                 </div>

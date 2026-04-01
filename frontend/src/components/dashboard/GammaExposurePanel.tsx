@@ -104,7 +104,7 @@ export function GammaExposurePanel() {
                      <div 
                         className="h-full transition-all duration-1000" 
                         style={{ 
-                            width: `${Math.min(100, (Math.abs(distToFlip) / (spot * 0.01)) * 100)}%`, 
+                            width: `${spot > 0 ? Math.min(100, (Math.abs(distToFlip) / (spot * 0.01)) * 100) : 0}%`, 
                             background: `linear-gradient(90deg, transparent, ${distToFlip >= 0 ? '#4ade80' : '#f87171'})` 
                         }} 
                     />
