@@ -41,15 +41,21 @@ export function useLiveMarketData(symbol: string, expiry?: string) {
 
   const [data, setData] = useState<LiveMarketData | null>(null);
 
-  // Throttled update function
+  // Throttled update function with dependency optimization
   const throttledUpdate = useMemo(
     () =>
       throttle((updatedData: LiveMarketData) => {
         setData(prev => {
-          if (JSON.stringify(prev) === JSON.stringify(updatedData)) return prev;
+          // Deep comparison to prevent unnecessary updates
+          if (!prev) return updatedData;
+          if (prev.symbol === updatedData.symbol && 
+              prev.spot === updatedData.spot && 
+              prev.timestamp === updatedData.timestamp) {
+            return prev;
+          }
           return updatedData;
         });
-      }, 500),
+      }, 200), // Further reduced for better responsiveness
     []
   );
 
@@ -68,7 +74,7 @@ export function useLiveMarketData(symbol: string, expiry?: string) {
     };
 
     throttledUpdate(transformed);
-  }, [marketData, symbol, throttledUpdate]);
+  }, [marketData.spot, marketData.lastUpdate, symbol, throttledUpdate]); // More specific dependencies
 
   useEffect(() => {
     return () => {

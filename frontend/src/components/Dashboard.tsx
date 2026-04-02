@@ -61,7 +61,7 @@ const DASHBOARD_CSS = `
       0 12px 20px -5px rgba(0, 0, 0, 0.4), 
       0 8px 10px -6px rgba(0, 0, 0, 0.3),
       inset 0 1px 0 0 rgba(255, 255, 255, 0.05);
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
     overflow: hidden;
     backdrop-filter: blur(20px);
@@ -184,6 +184,7 @@ const DASHBOARD_CSS = `
     background: rgba(30, 41, 59, 0.5);
     border-color: rgba(56, 189, 248, 0.3);
     transform: scale(1.02);
+    transition: transform 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
   }
 `;
 

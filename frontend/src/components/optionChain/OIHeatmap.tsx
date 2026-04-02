@@ -28,7 +28,7 @@ interface OIHeatmapProps {
   symbol: string;
 }
 
-const OIHeatmap: React.FC<OIHeatmapProps> = ({ symbol }) => {
+export const OIHeatmap = React.memo<OIHeatmapProps>(({ symbol }) => {
   const {
     expiryList,
     selectedExpiry,
@@ -213,6 +213,20 @@ const OIHeatmap: React.FC<OIHeatmapProps> = ({ symbol }) => {
   
   const strikeList = useMemo(() => (oiData || []).map(d => d.strike), [oiData]);
 
+  // Memoize filtered rows to prevent unnecessary re-renders
+  const filteredRows = useMemo(() => {
+    if (!oiData || oiData.length === 0) return [];
+    
+    const atmStrike = spotPrice ? Math.round(spotPrice / 50) * 50 : 0;
+    const range = 10; // Show 5 strikes above and below ATM
+    const minStrike = atmStrike - (range * 50);
+    const maxStrike = atmStrike + (range * 50);
+    
+    return oiData
+      .filter(row => row.strike >= minStrike && row.strike <= maxStrike)
+      .sort((a, b) => a.strike - b.strike);
+  }, [oiData, spotPrice]);
+
   return (
     <div ref={componentRef} className="w-full relative">
       {/* Header section matches Premium styling */}
@@ -290,7 +304,7 @@ const OIHeatmap: React.FC<OIHeatmapProps> = ({ symbol }) => {
                 />
             )}
 
-            {(oiData || []).map((row, index) => {
+            {filteredRows.map((row, index) => {
               const checkSpot = actualLiveData?.atm_strike || spotPrice || 0;
               const isATM = Math.abs(row.strike - checkSpot) <= 1;
               const callIntensity = row.oi / maxCallOI;
@@ -306,52 +320,79 @@ const OIHeatmap: React.FC<OIHeatmapProps> = ({ symbol }) => {
                 <div 
                   key={row.strike} 
                   ref={isATM ? atmRowRef : (index === 0 ? rowMeasurementRef : null)} 
-                  className={`grid grid-cols-7 py-2.5 border-b border-white/[0.02] transition-all duration-500 relative group/row ${
+                  className={`grid grid-cols-7 py-2.5 border-b border-white/[0.02] relative group/row ${
                     isATM ? 'bg-cyan-500/[0.05] border-y border-cyan-500/20 z-20' : 'hover:bg-white/[0.02]'
                   }`}
                   style={{
-                    backgroundColor: proximityEffect > 0 ? `rgba(0, 229, 255, ${proximityEffect * 0.04})` : undefined
+                    backgroundColor: proximityEffect > 0 ? `rgba(0, 229, 255, ${proximityEffect * 0.04})` : undefined,
+                    willChange: proximityEffect > 0 ? 'background-color' : 'auto'
                   }}
                 >
                   {/* Intensity Gradient Bars (Premium Neon Style) */}
-                  <div className="absolute right-[57.14%] top-[2px] bottom-[2px] pointer-events-none transition-all duration-700" style={{ width: `${callIntensity * 40}%` }}>
+                  <div className="absolute right-[57.14%] top-[2px] bottom-[2px] pointer-events-none" style={{ 
+                    width: `${callIntensity * 40}%`,
+                    willChange: 'width',
+                    transition: 'width 0.3s ease-out'
+                  }}>
                     <div className="h-full bg-gradient-to-l from-[#FF3131]/25 to-transparent border-r border-[#FF3131]/50 shadow-[-4px_0_12px_rgba(255,49,49,0.2)]" />
                   </div>
                   
-                  <div className="absolute left-[57.14%] top-[2px] bottom-[2px] pointer-events-none transition-all duration-700" style={{ width: `${putIntensity * 40}%` }}>
+                  <div className="absolute left-[57.14%] top-[2px] bottom-[2px] pointer-events-none" style={{ 
+                    width: `${putIntensity * 40}%`,
+                    willChange: 'width',
+                    transition: 'width 0.3s ease-out'
+                  }}>
                     <div className="h-full bg-gradient-to-r from-[#00FF9D]/25 to-transparent border-l border-[#00FF9D]/50 shadow-[4px_0_12px_rgba(0,255,157,0.2)]" />
                   </div>
 
                   {/* Row Values */}
-                  <div className="text-right pr-6 text-[12px] font-bold font-mono tabular-nums text-rose-100/90 relative z-10 transition-colors group-hover/row:text-white">
+                  <div className="text-right pr-6 text-[12px] font-bold font-mono tabular-nums text-rose-100/90 relative z-10" style={{
+                    willChange: proximityEffect > 0.6 ? 'color' : 'auto',
+                    transition: 'color 0.2s ease-out'
+                  }}>
                     {row.oi > 0 ? row.oi.toLocaleString() : '—'}
                   </div>
-                  <div className={`text-center text-[11px] font-mono tabular-nums transition-colors ${row.change > 0 ? 'text-[#00FF9D]' : (row.change < 0 ? 'text-[#FF3131]/60' : 'text-slate-600')}`}>
+                  <div className={`text-center text-[11px] font-mono tabular-nums ${row.change > 0 ? 'text-[#00FF9D]' : (row.change < 0 ? 'text-[#FF3131]/60' : 'text-slate-600')}`}>
                     {row.change !== 0 ? (row.change > 0 ? `+${row.change}` : row.change) : '—'}
                   </div>
-                  <div className={`text-center text-[11px] font-bold font-mono text-slate-400 tabular-nums border-r border-white/5 transition-colors ${proximityEffect > 0.6 ? 'text-white' : ''}`}>
+                  <div className={`text-center text-[11px] font-bold font-mono text-slate-400 tabular-nums border-r border-white/5 ${proximityEffect > 0.6 ? 'text-white' : ''}`}
+                    style={{
+                      willChange: proximityEffect > 0.6 ? 'color' : 'auto',
+                      transition: 'color 0.2s ease-out'
+                    }}>
                     {row.ltp > 0 ? row.ltp.toFixed(1) : '—'}
                   </div>
                   
                   {/* Global Strike Index (Institutional Sync) */}
-                  <div className={`text-center text-[13px] font-black font-mono tabular-nums tracking-tighter transition-all duration-500 relative z-30 ${
+                  <div className={`text-center text-[13px] font-black font-mono tabular-nums tracking-tighter relative z-30 ${
                     isATM ? 'text-cyan-400 scale-110' : 
-                    (proximityEffect > 0.4 ? 'text-cyan-200' : 'text-slate-300 group-hover/row:text-white')
-                  }`}>
+                    (proximityEffect > 0.4 ? 'text-cyan-200' : 'text-slate-300')
+                  }`}
+                  style={{
+                    willChange: isATM ? 'transform, color' : proximityEffect > 0.4 ? 'color' : 'auto',
+                    transition: 'transform 0.2s ease-out, color 0.2s ease-out'
+                  }}>
                     {row.strike}
                     {isMagnetic && (
                         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-8 rounded-full border border-cyan-500/30 animate-ping pointer-events-none" />
                     )}
                   </div>
                   
-                  <div className={`text-center text-[11px] font-bold font-mono text-slate-400 tabular-nums border-l border-white/5 transition-colors ${proximityEffect > 0.6 ? 'text-white' : ''}`}>
+                  <div className={`text-center text-[11px] font-bold font-mono text-slate-400 tabular-nums border-l border-white/5 ${proximityEffect > 0.6 ? 'text-white' : ''}`}
+                    style={{
+                      willChange: proximityEffect > 0.6 ? 'color' : 'auto',
+                      transition: 'color 0.2s ease-out'
+                    }}>
                     {row.put_ltp > 0 ? row.put_ltp.toFixed(1) : '—'}
                   </div>
-                  <div className={`text-center text-[11px] font-mono tabular-nums transition-colors ${row.put_change > 0 ? 'text-[#00FF9D]' : (row.put_change < 0 ? 'text-[#FF3131]/60' : 'text-slate-600')}`}>
+                  <div className={`text-center text-[11px] font-mono tabular-nums ${row.put_change > 0 ? 'text-[#00FF9D]' : (row.put_change < 0 ? 'text-[#FF3131]/60' : 'text-slate-600')}`}>
                     {row.put_change !== 0 ? (row.put_change > 0 ? `+${row.put_change}` : row.put_change) : '—'}
                   </div>
                   
-                  <div className="text-left pl-6 text-[12px] font-bold font-mono tabular-nums text-emerald-100/90 relative z-10 transition-colors group-hover/row:text-white">
+                  <div className="text-left pl-6 text-[12px] font-bold font-mono tabular-nums text-emerald-100/90 relative z-10" style={{
+                    willChange: 'color',
+                    transition: 'color 0.2s ease-out'
+                  }}>
                     {row.put_oi > 0 ? row.put_oi.toLocaleString() : '—'}
                   </div>
                 </div>
@@ -386,6 +427,6 @@ const OIHeatmap: React.FC<OIHeatmapProps> = ({ symbol }) => {
       `}</style>
     </div>
   );
-};
+});
 
 export default memo(OIHeatmap);
