@@ -6,17 +6,18 @@ import { useState, useEffect, useMemo } from 'react';
 import { useWSStore } from '../core/ws/wsStore';
 import { useShallow } from 'zustand/shallow';
 import throttle from "lodash/throttle";
+import { ChartAnalysis, AIPrediction, PerformanceMetrics } from '@/types/analytics';
 
-export interface LiveMarketData {
+interface LiveMarketData {
   symbol: string;
   spot: number;
   timestamp: string;
-  intelligence?: any;
-  dataQuality?: any;
+  intelligence?: Record<string, unknown>;
+  dataQuality?: Record<string, unknown>;
   aiReady?: boolean;
   atmStrike?: number;
-  chartAnalysis?: any;
-  analytics?: any;
+  chartAnalysis?: ChartAnalysis;
+  analytics?: Record<string, unknown>;
 }
 
 export function useLiveMarketData(symbol: string, expiry?: string) {

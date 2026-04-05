@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { memo } from 'react'
 import { useMarketStore } from '@/stores/marketStore'
 
-export const DataQualityBanner: React.FC = () => {
+export const DataQualityBanner: React.FC = memo(() => {
   const dataQuality = useMarketStore((s) => s.dataQuality)
 
   if (!dataQuality) return null
@@ -36,4 +36,4 @@ export const DataQualityBanner: React.FC = () => {
       <span>Connecting to market feed...</span>
     </div>
   )
-}
+});

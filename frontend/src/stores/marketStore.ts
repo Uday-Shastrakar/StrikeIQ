@@ -2,6 +2,7 @@ import { create } from 'zustand';
 import { subscribeWithSelector } from 'zustand/middleware';
 import { uiLog } from '../utils/uiLogger';
 import { getTraceId } from '../utils/traceManager';
+import { AISignal } from '../types/analytics';
 
 // Type definitions for market data
 interface IndexData {
@@ -91,7 +92,7 @@ interface MarketStore {
   
   // Analytics
   analytics: Analytics | null;
-  aiSignals: any[];
+  aiSignals: AISignal[];
   
   // Data quality tracking
   dataQuality: {
@@ -111,9 +112,9 @@ interface MarketStore {
   updateOptionChain: (data: OptionChain & { timestamp: number }) => void;
   updateHeatmap: (data: Heatmap & { timestamp: number }) => void;
   updateAnalytics: (data: Analytics & { timestamp: number }) => void;
-  setAISignals: (signals: any[]) => void;
+  setAISignals: (signals: AISignal[]) => void;
   updateMarketData: (data: Partial<MarketStore> & { connected?: boolean; lastUpdate?: number; marketOpen?: boolean }) => void;
-  updateDataQuality: (payload: any) => void;
+  updateDataQuality: (payload: Record<string, unknown>) => void;
   clearData: () => void;
 }
 

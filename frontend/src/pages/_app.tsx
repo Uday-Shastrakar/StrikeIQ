@@ -4,6 +4,8 @@ import dynamic from 'next/dynamic'
 import { useRouter } from 'next/router'
 
 import { AuthProvider } from '@/contexts/AuthContext'
+import { logger } from '@/utils/productionLogger'
+import ErrorBoundary from '@/components/ErrorBoundary'
 
 import AppBootstrapGuard from '@/components/AppBootstrapGuard'
 // import RouteGuard from '@/components/RouteGuard'  // DISABLED
@@ -25,18 +27,18 @@ function MyApp({ Component, pageProps }: AppProps) {
     setIsMounted(true)
     document.documentElement.classList.add('dark')
     
-    // DEBUG: Log environment variables
-    console.log('🌐 API URL:', process.env.NEXT_PUBLIC_API_URL);
-    console.log('🌐 WS URL:', process.env.NEXT_PUBLIC_WS_URL);
-    
-    // DEBUG: Log any router changes
-    console.log('🌐 _app.tsx - Current pathname:', router.pathname)
+    // Log environment variables in development only
+    logger.debug('APP', 'Environment variables loaded', {
+      apiUrl: process.env.NEXT_PUBLIC_API_URL,
+      wsUrl: process.env.NEXT_PUBLIC_WS_URL,
+      pathname: router.pathname
+    })
   }, [router.pathname])
 
   useEffect(() => {
-    // DEBUG: Log when component mounts
-    console.log('🌐 _app.tsx - Component mounted, pathname:', router.pathname)
-  }, [])
+    // Log component mount in development only
+    logger.debug('APP', 'Component mounted', { pathname: router.pathname })
+  }, [router.pathname])
 
   // Prevent hydration mismatch by waiting for client-side mount
   if (!isMounted) {
@@ -50,19 +52,29 @@ function MyApp({ Component, pageProps }: AppProps) {
   }
 
   return (
-    <AuthProvider>
-      <AppBootstrapGuard>
-        {/* <RouteGuard> */}  {/* DISABLED */}
-          <ServiceInitializer>
-            {!isAuthPage && <Navbar />}
-            <Component {...pageProps} />
-          </ServiceInitializer>
-        {/* </RouteGuard> */}  {/* DISABLED */}
+    <ErrorBoundary
+      onError={(error, errorInfo) => {
+        logger.error('APP', 'Unhandled error in application', {
+          error: error.message,
+          stack: error.stack,
+          componentStack: errorInfo.componentStack
+        });
+      }}
+      maxRetries={3}
+    >
+      <AuthProvider>
+        <AppBootstrapGuard>
+          {/* <RouteGuard> */}  {/* DISABLED */}
+            <ServiceInitializer>
+              {!isAuthPage && <Navbar />}
+              <Component {...pageProps} />
+            </ServiceInitializer>
+          {/* </RouteGuard> */}  {/* DISABLED */}
 
-      </AppBootstrapGuard>
+        </AppBootstrapGuard>
 
-    </AuthProvider>
-
+      </AuthProvider>
+    </ErrorBoundary>
   )
 }
 

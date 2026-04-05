@@ -1,19 +1,15 @@
-import { create } from 'zustand'
+import { create } from 'zustand';
+import { OptionChain } from '@/types/optionChain';
 
 interface OptionsStore {
-  optionChain: {
-    calls: any[];
-    puts: any[];
-    spot: number;
-    expiry: string;
-  } | null;
+  optionChain: OptionChain | null;
   symbol: string;
   expiry: string;
   spot: number;
   marketStatus: string;
   isMarketOpen: boolean;
   lastUpdate: number;
-  setOptionChain: (data: any) => void;
+  setOptionChain: (data: OptionChain) => void;
   setSymbol: (sym: string) => void;
   setExpiry: (exp: string) => void;
   setSpot: (price: number) => void;

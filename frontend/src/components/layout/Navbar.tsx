@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, memo } from "react";
 import { Wifi, WifiOff, Heart, BarChart2, Link2, Activity, Bell, Home, TrendingUp, Brain, Settings } from "lucide-react";
 import { useConnectionStatus } from "@/stores/marketStore";
 import { useWSStore } from "@/core/ws/wsStore";
@@ -43,7 +43,7 @@ function scrollToSection(sectionId: string) {
   if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
-export default function Navbar() {
+export default memo(function Navbar() {
 
   const connected = useConnectionStatus();
 
@@ -374,4 +374,4 @@ export default function Navbar() {
       </nav>
     </>
   );
-}
+});

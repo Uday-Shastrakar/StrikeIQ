@@ -78,7 +78,7 @@ export interface SmartMoneyActivity {
   signal_strength: number;
   premium?: number;
   confidence: string;
-  [key: string]: any;
+  [key: string]: unknown;
 }
 
 export interface SmartMoneyAnalysis {

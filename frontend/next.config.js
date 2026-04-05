@@ -3,6 +3,9 @@
 const nextConfig = {
   reactStrictMode: false,
 
+  // Enable standalone output for Docker
+  output: 'standalone',
+
   env: {
     NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL,
     NEXT_PUBLIC_WS_URL: process.env.NEXT_PUBLIC_WS_URL,

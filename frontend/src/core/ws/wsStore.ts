@@ -8,12 +8,76 @@
 import { create } from "zustand"
 import { uiLog } from "@/utils/uiLogger"
 import { useMarketContextStore } from "@/stores/marketContextStore"
+import { 
+  AISignal, 
+  ChartAnalysis, 
+  AIPrediction, 
+  EarlyWarning, 
+  NewsAlert, 
+  PaperTrading, 
+  PerformanceMetrics,
+  OIHeatmap 
+} from "@/types/analytics"
+import { OptionChainSnapshot } from "@/types/optionChain"
+
+interface CandleData {
+  time: number;
+  open: number;
+  high: number;
+  low: number;
+  close: number;
+  volume: number;
+}
+
+interface KeyLevels {
+  support: number[];
+  resistance: number[];
+  pivotPoints: Record<string, number>;
+}
+
+interface GammaAnalysis {
+  netGamma: number;
+  gammaFlip: number;
+  callGamma: number;
+  putGamma: number;
+  maxGammaStrike: number;
+}
+
+interface VolatilityState {
+  currentIV: number;
+  ivPercentile: number;
+  ivRank: number;
+  termStructure: Record<string, number>;
+}
+
+interface TechnicalIndicators {
+  rsi: number;
+  macd: {
+    signal: number;
+    histogram: number;
+    line: number;
+  };
+  bollinger: {
+    upper: number;
+    middle: number;
+    lower: number;
+  };
+}
+
+interface TradePlan {
+  entry: number;
+  targets: number[];
+  stopLoss: number;
+  riskReward: number;
+  timeframe: string;
+  reasoning: string;
+}
 
 interface WSStore {
   connected: boolean
   marketOpen: boolean | null
   marketStatus: "OPEN" | "PREOPEN" | "CLOSED" | "UNKNOWN"
-  lastMessage: any | null
+  lastMessage: unknown | null
   error: string | null
   spot: number
   spotPrice: number
@@ -23,31 +87,31 @@ interface WSStore {
   atm: number
   symbol?: string
   lastUpdate: number
-  marketData: any
-  optionChainSnapshot: any
-  analytics: any
-  liveMarketData: any
-  aiIntelligence: any
-  dataQuality: any
+  marketData: Record<string, unknown>
+  optionChainSnapshot: OptionChainSnapshot | null
+  analytics: Record<string, unknown>
+  liveMarketData: Record<string, unknown>
+  aiIntelligence: Record<string, unknown>
+  dataQuality: Record<string, unknown>
   aiReady: boolean
-  advancedStrategies: any
-  signalScore: any
-  chartAnalysis: any
-  aiPrediction: any
-  candles: any[]
+  advancedStrategies: Record<string, unknown>
+  signalScore: Record<string, unknown>
+  chartAnalysis: ChartAnalysis | null
+  aiPrediction: AIPrediction | null
+  candles: CandleData[]
   
-  // 🔥 ADD PERFORMANCE DATA
-  performance: any
-  analytics_full: any
-  strategy_weights: any
+  // Performance data
+  performance: PerformanceMetrics | null
+  analytics_full: Record<string, unknown>
+  strategy_weights: Record<string, unknown>
   
   _lastChainUpdate: number
   _lastHeatmapUpdate: number
   _THROTTLE_MS: number
   
-  // NEW: Separated AI analysis and trade setup fields
-  aiAnalysis: any | null
-  tradeSetup: any | null
+  // Separated AI analysis and trade setup fields
+  aiAnalysis: Record<string, unknown> | null
+  tradeSetup: TradePlan | null
   
   // Master Contract v5.0 Extended Fields
   pcr: number
@@ -58,25 +122,25 @@ interface WSStore {
   netGex: number
   ivAtm: number
   ivPercentile: number
-  calls: Record<string, any>
-  puts: Record<string, any>
-  optionChain: any
+  calls: Record<string, unknown>
+  puts: Record<string, unknown>
+  optionChain: Record<string, unknown>
   regime: string
   bias: string
   biasStrength: number
-  keyLevels: any
-  gammaAnalysis: any
-  volState: any
-  technicals: any
+  keyLevels: KeyLevels
+  gammaAnalysis: GammaAnalysis
+  volState: VolatilityState
+  technicals: TechnicalIndicators
   rsi: number
   summary: string
-  tradePlan: any
-  earlyWarnings: any[]
-  newsAlerts: any[]
-  paperTrading: any
-  heatmapData: any
-  oiHeatmap: any
-  oi_heatmap: any
+  tradePlan: TradePlan
+  earlyWarnings: EarlyWarning[]
+  newsAlerts: NewsAlert[]
+  paperTrading: PaperTrading
+  heatmapData: OIHeatmap | null
+  oiHeatmap: OIHeatmap | null
+  oi_heatmap: OIHeatmap | null
   
   handleMessage: (message: any) => void
   handleAnalytics: (analyticsPayload: any) => void
@@ -169,10 +233,37 @@ export const useWSStore = create<WSStore>((set, get) =>({
   regime: 'RANGING',
   bias: 'NEUTRAL',
   biasStrength: 0,
-  keyLevels: {},
-  gammaAnalysis: {},
-  volState: {},
-  technicals: {},
+  keyLevels: {
+    support: [],
+    resistance: [],
+    pivotPoints: {}
+  },
+  gammaAnalysis: {
+    netGamma: 0,
+    gammaFlip: 0,
+    callGamma: 0,
+    putGamma: 0,
+    maxGammaStrike: 0
+  },
+  volState: {
+    currentIV: 0,
+    ivPercentile: 0,
+    ivRank: 0,
+    termStructure: {}
+  },
+  technicals: {
+    rsi: 0,
+    macd: {
+      signal: 0,
+      histogram: 0,
+      line: 0
+    },
+    bollinger: {
+      upper: 0,
+      middle: 0,
+      lower: 0
+    }
+  },
   rsi: 0,
   summary: '',
   tradePlan: null,
@@ -346,7 +437,7 @@ export const useWSStore = create<WSStore>((set, get) =>({
             aiReady:      true,
 
             analytics: {
-              ...get().analytics,
+              ...(get().analytics || {}),
               ...a,
               timestamp: timestamp, // Add timestamp to track duplicates
 
@@ -648,24 +739,36 @@ export const useWSStore = create<WSStore>((set, get) =>({
             // Technical state
             technicals: {
               ...(prev.technicals || {}),
-              rsi:           analysis.technical_state?.rsi         ?? prev.technicals?.rsi,
-              momentum_15m: analysis.technical_state?.momentum_15m ?? prev.technicals?.momentum_15m,
+              rsi: analysis.technical_state?.rsi ?? prev.technicals?.rsi,
+              macd: {
+                signal: analysis.technical_state?.macd?.signal ?? prev.technicals?.macd?.signal ?? 0,
+                histogram: analysis.technical_state?.macd?.histogram ?? prev.technicals?.macd?.histogram ?? 0,
+                line: analysis.technical_state?.macd?.line ?? prev.technicals?.macd?.line ?? 0,
+              },
+              bollinger: {
+                upper: analysis.technical_state?.bollinger?.upper ?? prev.technicals?.bollinger?.upper ?? 0,
+                middle: analysis.technical_state?.bollinger?.middle ?? prev.technicals?.bollinger?.middle ?? 0,
+                lower: analysis.technical_state?.bollinger?.lower ?? prev.technicals?.bollinger?.lower ?? 0,
+              },
             },
             
             // Volatility
             volState: {
               ...(prev.volState || {}),
-              state:         analysis.volatility_analysis?.regime ?? prev.volState?.state,
-              iv_atm:        analysis.volatility_analysis?.iv_atm ?? prev.volState?.iv_atm,
-              iv_percentile: analysis.volatility_analysis?.iv_percentile ?? prev.volState?.iv_percentile,
+              currentIV: analysis.volatility_analysis?.iv_atm ?? prev.volState?.currentIV ?? 0,
+              ivPercentile: analysis.volatility_analysis?.iv_percentile ?? prev.volState?.ivPercentile ?? 0,
+              ivRank: prev.volState?.ivRank ?? 0,
+              termStructure: prev.volState?.termStructure ?? {},
             },
             
             // Gamma
             gammaAnalysis: {
               ...(prev.gammaAnalysis || {}),
-              regime:  analysis.gamma_analysis?.regime ?? prev.gammaAnalysis?.regime,
-              net_gex: analysis.gamma_analysis?.net_gex ?? prev.gammaAnalysis?.net_gex,
-              flip_level: analysis.gamma_analysis?.flip_level ?? prev.gammaAnalysis?.flip_level,
+              netGamma: analysis.gamma_analysis?.net_gex ?? prev.gammaAnalysis?.netGamma ?? 0,
+              gammaFlip: analysis.gamma_analysis?.flip_level ?? prev.gammaAnalysis?.gammaFlip ?? 0,
+              callGamma: prev.gammaAnalysis?.callGamma ?? 0,
+              putGamma: prev.gammaAnalysis?.putGamma ?? 0,
+              maxGammaStrike: prev.gammaAnalysis?.maxGammaStrike ?? 0,
             },
             
             lastUpdate: Date.now(),

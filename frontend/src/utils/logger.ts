@@ -6,7 +6,7 @@
 export interface LogContext {
   traceId?: string;
   component?: string;
-  [key: string]: any;
+  [key: string]: unknown;
 }
 
 class Logger {
@@ -107,7 +107,7 @@ export const traceManager = {
 };
 
 // Higher-order function for automatic trace management
-export function withTrace<T extends any[], R>(
+export function withTrace<T extends unknown[], R>(
   fn: (...args: T) => R,
   serviceName?: string
 ): (...args: T) => R {

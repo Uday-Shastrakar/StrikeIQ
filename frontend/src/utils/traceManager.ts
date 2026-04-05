@@ -2,7 +2,7 @@ export function getTraceId() {
   return Math.random().toString(36).substring(2, 8).toUpperCase()
 }
 
-export function withTraceId<T extends (...args: any[]) => Promise<any>>(
+export function withTraceId<T extends (...args: unknown[]) => Promise<unknown>>(
   fn: T,
   context: string
 ): T {

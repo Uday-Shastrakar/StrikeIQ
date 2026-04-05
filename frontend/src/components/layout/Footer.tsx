@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, memo } from "react";
 import { Settings, TrendingUp, Activity, BarChart3 } from "lucide-react";
 import { useMarketStore } from "@/stores/marketStore";
 
@@ -11,7 +11,7 @@ export interface FooterProps {
   onSymbolSelect?: (symbol: Symbol) => void;
 }
 
-export default function Footer({ onSymbolSelect }: FooterProps) {
+export default memo(function Footer({ onSymbolSelect }: FooterProps) {
   const marketOpen = useMarketStore((s) => s.marketOpen);
   const [activeTab, setActiveTab] = useState<'oi' | 'volume' | 'vwap'>('oi');
 
@@ -79,4 +79,4 @@ export default function Footer({ onSymbolSelect }: FooterProps) {
       </div>
     </div>
   );
-}
+});

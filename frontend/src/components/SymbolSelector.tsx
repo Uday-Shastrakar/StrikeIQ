@@ -1,5 +1,5 @@
 "use client";
-import React from 'react';
+import React, { memo } from 'react';
 import { useMarketContextStore } from '@/stores/marketContextStore';
 import { useExpirySelector } from '@/hooks/useExpirySelector';
 import { resubscribeMarketWS } from '@/services/wsService';
@@ -8,7 +8,7 @@ import { BarChart2, Calendar } from 'lucide-react';
 
 const SYMBOLS = ["NIFTY", "BANKNIFTY", "FINNIFTY"];
 
-export default function SymbolSelector() {
+const SymbolSelector = memo(function SymbolSelector() {
   const currentSymbol = useMarketContextStore(state => state.symbol);
   const setCurrentSymbol = useMarketContextStore(state => state.setSymbol);
   
@@ -155,4 +155,8 @@ export default function SymbolSelector() {
 
     </div>
   );
-}
+});
+
+SymbolSelector.displayName = 'SymbolSelector';
+
+export default SymbolSelector;

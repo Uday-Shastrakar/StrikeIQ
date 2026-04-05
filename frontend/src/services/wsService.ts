@@ -1,6 +1,6 @@
 import { useMarketStore } from "../stores/marketStore"
 import { useWSStore } from "../core/ws/wsStore"
-import { wsLog, wsError, wsCritical } from "@/utils/uiLogger"
+import { wsLog, wsError, wsCritical } from "@/utils/productionLogger"
 
 let socket: WebSocket | null = null
 let isConnecting = false
@@ -27,12 +27,12 @@ export function connectMarketWS() {
   if (socket && socket.readyState === WebSocket.CONNECTING) return null;
   
   if (isConnecting) {
-    console.log("🔒 WebSocket already connecting (flag)")
+    wsLog("WebSocket already connecting (flag)")
     return null
   }
 
-  console.log("WS CONNECTING")
-  console.log("⚡ CONNECT() EXECUTED", {
+  wsLog("WS CONNECTING")
+  wsLog("CONNECT() EXECUTED", {
     reconnectAttempts,
     time: Date.now()
   })
@@ -40,7 +40,7 @@ export function connectMarketWS() {
   const WS_URL = process.env.NEXT_PUBLIC_WS_URL || "wss://strikeiq-production-e1cd.up.railway.app/ws/market";
 
   if (!WS_URL) {
-    console.error("❌ WS URL missing");
+    wsError("WS URL missing");
     return;
   }
 
@@ -48,7 +48,7 @@ export function connectMarketWS() {
 
   if (reconnectAttempts > MAX_RECONNECTS) {
     wsError("WS RECONNECT LIMIT REACHED", { reconnectAttempts, maxReconnects: MAX_RECONNECTS })
-    console.error("❌ Max reconnect attempts reached")
+    wsError("Max reconnect attempts reached")
     return null
   }
 
@@ -56,12 +56,12 @@ export function connectMarketWS() {
     (window as any).__strikeiq_ws &&
     (window as any).__strikeiq_ws.readyState === WebSocket.OPEN
   ) {
-    console.log("🔒 Returning existing WebSocket instance")
+    wsLog("Returning existing WebSocket instance")
     return (window as any).__strikeiq_ws
   }
 
   if (isConnecting) {
-    console.log("🔒 WebSocket already connecting")
+    wsLog("WebSocket already connecting")
     return null
   }
 
@@ -81,14 +81,14 @@ export function connectMarketWS() {
   // Close any existing WebSocket connection before creating a new one
   if ((window as any).__strikeiq_ws) {
     try {
-      console.warn("⚠️ MANUAL WS CLOSE TRIGGERED", (new Error()).stack || "No stack trace available");
+      wsLog("MANUAL WS CLOSE TRIGGERED", { stack: (new Error()).stack || "No stack trace available" });
       (window as any).__strikeiq_ws.close()
     } catch (error) {
       // Ignore errors when closing existing WebSocket
     }
   }
 
-  console.log("🧠 WS CONNECT CALLED", {
+  wsLog("WS CONNECT CALLED", {
     time: new Date().toISOString(),
     stack: new Error().stack || "No stack trace available"
   })
@@ -98,8 +98,8 @@ export function connectMarketWS() {
     ; (window as any).__strikeiq_ws = socket
 
   socket.onopen = () => {
-    console.log("WS OPEN")
-    console.log("WS TRACE → SOCKET OPEN", {
+    wsLog("WS OPEN")
+    wsLog("SOCKET OPEN", {
       readyState: socket.readyState,
       time: new Date().toISOString()
     })
@@ -111,7 +111,7 @@ export function connectMarketWS() {
 
     if (typeof window !== "undefined") {
       window.dispatchEvent(new Event("ws-connected"))
-      console.log("WS TRACE → EVENT DISPATCHED ws-connected")
+      wsLog("EVENT DISPATCHED ws-connected")
     }
 
     // Update marketStore with connection state
