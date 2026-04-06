@@ -33,7 +33,7 @@ AI-powered options market intelligence platform for Indian markets (**NIFTY, BAN
 
 ### Security Status
 - **Frontend**: 15 vulnerabilities (1 moderate, 14 high) - Needs attention
-- **Backend**: No critical vulnerabilities detected ✅
+- **Backend**: No critical vulnerabilities detected  ✅
 
 ## Features
 
