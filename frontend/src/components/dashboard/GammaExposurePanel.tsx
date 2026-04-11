@@ -16,10 +16,9 @@ const SkeletonPulse = ({ className }: { className: string }) => (
     <div className={`animate-pulse bg-white/5 rounded-md ${className}`} />
 );
 
-export function GammaExposurePanel() {
+export const GammaExposurePanel = React.memo(function GammaExposurePanel() {
     // Law 7: Granular Store Subscriptions
-    const lastUpdate = useWSStore(s => s.lastUpdate);
-    const hasData = lastUpdate > 0;
+    const hasData = useWSStore(s => s.spot > 0);
     const analysis = useWSStore(s => s.chartAnalysis);
     const spot = useWSStore(s => s.spot);
     

@@ -122,8 +122,9 @@ async def callback(code: str = Query(None), request: Request = None):
 
         clear_trace()
 
-        # Redirect to frontend (env-aware, not hardcoded to localhost)
-        frontend_url = os.getenv("FRONTEND_URL", "https://strikeiq-production-e1cd.up.railway.app")
+        # Redirect to frontend (env-aware)
+        # Priority: ENV VAR > localhost:3000 (dev) > Production (fallback)
+        frontend_url = os.getenv("FRONTEND_URL", "http://localhost:3000")
         return RedirectResponse(
             url=f"{frontend_url}?upstox=success",
             status_code=302
@@ -135,7 +136,7 @@ async def callback(code: str = Query(None), request: Request = None):
 
         clear_trace()
 
-        frontend_url = os.getenv("FRONTEND_URL", "https://strikeiq-production-e1cd.up.railway.app")
+        frontend_url = os.getenv("FRONTEND_URL", "http://localhost:3000")
         return RedirectResponse(
             url=f"{frontend_url}?upstox=failed",
             status_code=302

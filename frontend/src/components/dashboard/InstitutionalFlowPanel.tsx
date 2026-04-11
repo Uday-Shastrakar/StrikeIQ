@@ -16,11 +16,13 @@ const SkeletonPulse = ({ className }: { className: string }) => (
     <div className={`animate-pulse bg-white/5 rounded-md ${className}`} />
 );
 
-export function InstitutionalFlowPanel() {
+export const InstitutionalFlowPanel = React.memo(function InstitutionalFlowPanel() {
     // Law 7: Granular Store Subscriptions
-    const lastUpdate = useWSStore(s => s.lastUpdate);
     const aiReady = useWSStore(s => s.aiReady);
     const analysis = useWSStore(s => s.chartAnalysis);
+    
+    // Law 7: Use spot > 0 instead of lastUpdate to prevent 11Hz re-renders
+    const hasData = useWSStore(s => s.spot > 0);
     
     // FIX E: Read from correct store fields for momentum and structure
     const technicals = useWSStore(s => s.technicals);
@@ -36,7 +38,6 @@ export function InstitutionalFlowPanel() {
     const intent = flow?.intent_score || 0;
     const imbalance = flow?.imbalance || 0;
 
-    const hasData = lastUpdate > 0;
     if (!hasData || !analysis) {
         return (
             <div className="trading-panel h-full flex flex-col p-6 opacity-40">
