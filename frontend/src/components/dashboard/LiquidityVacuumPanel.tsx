@@ -20,7 +20,7 @@ export function LiquidityVacuumPanel() {
     // Law 7: Granular Store Subscriptions
     const lastUpdate = useWSStore(s => s.lastUpdate);
     const aiReady = useWSStore(s => s.aiReady);
-    const analysis = useWSStore(s => s.chartAnalysis);
+    const analysis = useWSStore(s => s.chartAnalysis) as any;
     const spot = useWSStore(s => s.spot);
     
     // v5.0 Liquidity Vacuum state
