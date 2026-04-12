@@ -41,7 +41,7 @@ export function TradeSetupPanel() {
     const regime       = useWSStore(s => s.regime        ?? 'RANGING')
     const bias         = useWSStore(s => s.bias          ?? 'NEUTRAL')
     const pcr          = useWSStore(s => s.pcr           ?? 0)
-    const analytics     = useWSStore(s => s.analytics)      // FIX: Read analytics for strategy/confidence
+    const analytics     = useWSStore(s => s.analytics) as any      // FIX: Read analytics for strategy/confidence
     const lastUpdate   = useWSStore(s => s.lastUpdate)
     
     // 🔥 ADD PERFORMANCE DATA FROM STORE

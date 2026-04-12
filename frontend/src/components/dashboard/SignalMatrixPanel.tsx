@@ -55,7 +55,7 @@ export const SignalMatrixPanel = React.memo(function SignalMatrixPanel() {
         callWall,
         putWall,
         biasStrength
-    } = useWSStore(useShallow(s => ({
+    } = useWSStore(useShallow((s: any) => ({
         pcr: s.pcr,
         netGex: s.netGex,
         tradePlan: s.tradePlan,
@@ -73,7 +73,7 @@ export const SignalMatrixPanel = React.memo(function SignalMatrixPanel() {
         callWall: s.callWall ?? s.keyLevels?.call_wall,
         putWall: s.putWall ?? s.keyLevels?.put_wall,
         biasStrength: s.biasStrength
-    })));
+    }))) as any;
 
     const hasData = spotPrice > 0;
 

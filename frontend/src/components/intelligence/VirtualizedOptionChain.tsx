@@ -65,8 +65,9 @@ const VirtualizedOptionChain: React.FC<VirtualizedOptionChainProps> = memo(({ op
 
     if (!actualLiveData) return { calls: [], puts: [], combined: [] };
 
-    const calls = actualLiveData.calls || [];
-    const puts = actualLiveData.puts || [];
+    const data = actualLiveData as any;
+    const calls = data.calls || [];
+    const puts = data.puts || [];
 
     const strikeMap = new Map();
 

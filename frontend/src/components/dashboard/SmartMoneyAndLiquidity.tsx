@@ -23,7 +23,7 @@ export function SmartMoneyPanel() {
     // Law 7: Granular Store Subscriptions
     const lastUpdate = useWSStore(s => s.lastUpdate);
     const aiReady = useWSStore(s => s.aiReady);
-    const analysis = useWSStore(s => s.chartAnalysis);
+    const analysis = useWSStore(s => s.chartAnalysis) as any;
     
     // v5.0 Smart Money state
     const strength = analysis?.bias_strength || 0;
@@ -97,7 +97,7 @@ export function SmartMoneyPanel() {
 export function LiquidityPanel() {
     const lastUpdate = useWSStore(s => s.lastUpdate);
     const aiReady = useWSStore(s => s.aiReady);
-    const analysis = useWSStore(s => s.chartAnalysis);
+    const analysis = useWSStore(s => s.chartAnalysis) as any;
     
     // v5.0 Liquidity state
     const liq = analysis?.liquidity_analysis;

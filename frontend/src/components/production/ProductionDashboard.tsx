@@ -42,7 +42,7 @@ const ProductionDashboard: React.FC = () => {
           </div>
           
           <div className="text-sm text-gray-400">
-            Last Update: {lastMessage?.timestamp ? new Date(lastMessage.timestamp).toLocaleTimeString() : 'Never'}
+            Last Update: {(lastMessage as any)?.timestamp ? new Date((lastMessage as any).timestamp).toLocaleTimeString() : 'Never'}
           </div>
         </div>
       </div>

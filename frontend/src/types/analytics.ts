@@ -41,7 +41,11 @@ export interface ChartAnalysis {
   volatility_state?: {
     expected_move: number;
     breach_probability: number;
+    iv_atm?: number;
+    iv_percentile?: number;
+    timeframe?: string;
   };
+  events?: any[];
 }
 
 export interface AIPrediction {

@@ -47,7 +47,7 @@ const StrategyPlanPanel: React.FC = () => {
         );
     }
 
-    const plan = storePlan;
+    const plan = storePlan as any;
     const isBullish = plan.option_type === 'CE' || plan.bias === 'BULLISH';
     const accentColor = isBullish ? '#10b981' : '#f43f5e';
 

@@ -16,7 +16,7 @@ export function TickerStrip({ symbol }: { symbol: string }) {
     const hasData = lastUpdate > 0;
     
     // Direct selectors with fallbacks
-    const changePct = useWSStore(s => s.technicals?.change_pct ?? 0);
+    const changePct = useWSStore(s => (s.technicals as any)?.change_pct ?? 0);
     const changePositive = changePct >= 0;
     const earlyWarnings = useWSStore(s => s.earlyWarnings) || [];
     const bias = useWSStore(s => s.bias ?? 'NEUTRAL');

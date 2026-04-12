@@ -7,12 +7,13 @@ export function useDashboardData() {
   const spot = useWSStore((s) => s.spot) // Fallback for spot
   const connected = useWSStore((s) => s.connected)
 
-  // Extract data from liveMarketData
-  const snapshot = liveMarketData?.snapshot || {}
-  const analytics = liveMarketData?.analytics || {}
-  const optionChain = liveMarketData?.option_chain || {}
-  const candles = liveMarketData?.candles || []
-  const aiSignals = liveMarketData?.ai_signals || {}
+  // Extract data from liveMarketData (cast to any for property access)
+  const lmd = liveMarketData as any
+  const snapshot = lmd?.snapshot || {}
+  const analytics = lmd?.analytics || {}
+  const optionChain = lmd?.option_chain || {}
+  const candles = lmd?.candles || []
+  const aiSignals = lmd?.ai_signals || {}
 
   // Extract specific metrics
   const spotPrice = snapshot.spot || spot

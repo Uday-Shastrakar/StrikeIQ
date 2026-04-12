@@ -22,12 +22,15 @@ const SafeModeGuard: React.FC<SafeModeGuardProps> = ({
     // 🔥 WS-AWARE LIVE OVERRIDE FIX
     const store = useWSStore.getState();
 
+    const lmd = store.liveMarketData as any;
+    const snap = store.optionChainSnapshot as any;
+
     const wsSpot =
         store.spot ??
-        store.liveMarketData?.spot_price ??
-        store.liveMarketData?.spotPrice ??
-        store.optionChainSnapshot?.spot ??
-        store.optionChainSnapshot?.spot_price ??
+        lmd?.spot_price ??
+        lmd?.spotPrice ??
+        snap?.spot ??
+        snap?.spot_price ??
         0;
 
     // FORCE LIVE if WS has valid spot
@@ -87,7 +90,9 @@ export const useEffectiveSpot = (data: any, engineMode: string) => {
     const store = useWSStore.getState();
 
     // STEP 2: Enable live mode - prioritize liveMarketData over snapshot
-    const spot = store.spot ?? store.liveMarketData?.spot_price ?? store.optionChainSnapshot?.spot ?? store.optionChainSnapshot?.spot_price ?? 0;
+    const lmd = store.liveMarketData as any;
+    const snap = store.optionChainSnapshot as any;
+    const spot = store.spot ?? lmd?.spot_price ?? snap?.spot ?? snap?.spot_price ?? 0;
 
     const restSpotPrice =
         data?.spot_price ??

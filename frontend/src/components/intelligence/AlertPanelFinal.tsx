@@ -12,7 +12,7 @@ const AlertPanel: React.FC = () => {
     // Law 7: Granular Store Subscriptions
     const lastUpdate = useWSStore(s => s.lastUpdate);
     const hasData = lastUpdate > 0;
-    const analysis = useWSStore(s => s.chartAnalysis);
+    const analysis = useWSStore(s => s.chartAnalysis) as any;
     const alerts = analysis?.events || [];
     
     const [dismissedAlerts, setDismissedAlerts] = useState<Set<string>>(new Set());

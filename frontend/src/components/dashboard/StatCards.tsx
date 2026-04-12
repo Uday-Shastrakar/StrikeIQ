@@ -79,8 +79,8 @@ export const StatCardsRow = React.memo(function StatCardsRow() {
     const bias         = useWSStore(s => s.bias          ?? 'NEUTRAL')
     const biasStrength = useWSStore(s => s.biasStrength  ?? 0)
     const pcr          = useWSStore(s => s.pcr           ?? 0)
-    const vol          = useWSStore(s => s.volState)
-    const gamma        = useWSStore(s => s.gammaAnalysis)
+    const vol          = useWSStore(s => s.volState) as any;
+    const gamma        = useWSStore(s => s.gammaAnalysis) as any;
     const lastUpdate   = useWSStore(s => s.lastUpdate)
     const hasData      = useWSStore(s => s.spot > 0)
 

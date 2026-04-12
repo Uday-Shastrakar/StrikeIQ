@@ -72,6 +72,8 @@ interface TradePlan {
   riskReward: number;
   timeframe: string;
   reasoning: string;
+  expected_profit?: number;
+  max_loss?: number;
 }
 
 interface WSStore {

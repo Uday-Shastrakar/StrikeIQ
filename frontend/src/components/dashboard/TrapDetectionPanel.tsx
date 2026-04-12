@@ -13,7 +13,7 @@ const SkeletonPulse = ({ className }: { className: string }) => (
 export const TrapDetectionPanel = React.memo(function TrapDetectionPanel() {
     // Law 7: Granular Store Subscriptions
     const spotPrice    = useWSStore(s => s.spot ?? s.spotPrice ?? 0);
-    const analysis     = useWSStore(s => s.chartAnalysis);
+    const analysis     = useWSStore(s => s.chartAnalysis) as any;
     const hasData      = spotPrice > 0 && !!analysis;
 
     // Extract trap-related data from chartAnalysis

@@ -3,11 +3,11 @@ import React from 'react';
 import { Activity, Brain } from 'lucide-react';
 import { useWSStore } from '@/core/ws/wsStore';
 
-export default function AICommandCenter() {
+export const AICommandCenter = React.memo(function AICommandCenter() {
     // Law 7: Granular Store Subscriptions
-    const analytics = useWSStore(s => s.analytics);
-    const lastUpdate = useWSStore(s => s.lastUpdate);
-    const hasData = lastUpdate > 0;
+    const analytics = useWSStore(s => s.analytics) as any;
+    const aiReady = useWSStore(s => s.aiReady);
+    const hasData = aiReady || useWSStore(s => s.spot > 0);
 
     if (!hasData) {
         return (
@@ -38,11 +38,11 @@ export default function AICommandCenter() {
                     </div>
                 </div>
                 <div className="text-center space-y-2">
-                    <div className="text-2xl font-black text-white tracking-tighter">{(analytics?.confidence_score * 100 || 0).toFixed(1)}%</div>
+                    <div className="text-2xl font-black text-white tracking-tighter">{( (analytics?.confidence_score || 0) * 100).toFixed(1)}%</div>
                     <div className="text-[10px] font-black font-mono text-blue-400 tracking-[0.3em] uppercase">CONFLUENCE_SCORE</div>
                 </div>
             </div>
         </div>
     );
-}
+});
 

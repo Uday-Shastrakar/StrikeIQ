@@ -62,12 +62,12 @@ export const OIHeatmap = React.memo<OIHeatmapProps>(({ symbol }) => {
   const actualLiveData = useMemo(() => {
     const callsArray = Object.entries(heatmapStoreCalls || {}).map(([strike, data]) => ({
       strike: parseInt(strike),
-      ...data
+      ...(data as any || {})
     }));
     
     const putsArray = Object.entries(heatmapStorePuts || {}).map(([strike, data]) => ({
       strike: parseInt(strike),
-      ...data
+      ...(data as any || {})
     }));
     
     return { 

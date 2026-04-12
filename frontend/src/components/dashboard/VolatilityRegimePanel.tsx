@@ -19,7 +19,7 @@ const SkeletonPulse = ({ className }: { className: string }) => (
 export function VolatilityRegimePanel() {
     // Law 7: Granular Store Subscriptions
     const lastUpdate = useWSStore(s => s.lastUpdate);
-    const analysis   = useWSStore(s => s.chartAnalysis);
+    const analysis   = useWSStore(s => s.chartAnalysis) as any;
     const spot       = useWSStore(s => s.spot ?? s.spotPrice ?? 0);
     const hasData    = lastUpdate > 0 && !!analysis;
     
