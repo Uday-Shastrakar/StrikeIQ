@@ -1,6 +1,6 @@
 License: Proprietary (All Rights Reserved)
 
-# StrikeIQ - Options Market Intelligence SaaS
+# StrikeAi - Options Market Intelligence SaaS
 
 AI-powered options market intelligence platform for Indian markets (**NIFTY, BANKNIFTY & FINNIFTY**) with **production-grade OAuth 2.0 security implementation**, **proactive structural intelligence engine**, and **modern, optimized tech stack**.
 
