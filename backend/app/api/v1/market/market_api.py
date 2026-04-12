@@ -178,8 +178,8 @@ async def get_historical_candles(
 
         logger.info(f"Fetching candles for {symbol} ({tf})")
 
-        # Get token
-        token = os.getenv("UPSTOX_TOKEN")
+        # Get token from manager (Redis-backed)
+        token = await token_manager.get_token()
         if not token:
             raise HTTPException(status_code=401, detail="No valid upstox token")
 
