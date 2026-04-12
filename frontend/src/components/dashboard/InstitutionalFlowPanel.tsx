@@ -156,4 +156,4 @@ export const InstitutionalFlowPanel = React.memo(function InstitutionalFlowPanel
             </div>
         </div>
     );
-}
+});

@@ -122,4 +122,4 @@ export const GammaExposurePanel = React.memo(function GammaExposurePanel() {
             </div>
         </div>
     );
-}
+});
