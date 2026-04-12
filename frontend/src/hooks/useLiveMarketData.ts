@@ -8,7 +8,7 @@ import { useShallow } from 'zustand/shallow';
 import throttle from "lodash/throttle";
 import { ChartAnalysis, AIPrediction, PerformanceMetrics } from '@/types/analytics';
 
-interface LiveMarketData {
+export interface LiveMarketData {
   symbol: string;
   spot: number;
   timestamp: string;

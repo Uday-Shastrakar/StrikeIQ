@@ -18,12 +18,30 @@ export interface AISignal {
 export interface ChartAnalysis {
   trend: 'bullish' | 'bearish' | 'sideways';
   strength: number;
+  bias: string;
+  bias_strength: number;
   support: number[];
   resistance: number[];
   pattern?: string;
   targets?: number[];
   stopLoss?: number;
   timestamp: number;
+  flow_analysis?: {
+    call_velocity: number;
+    put_velocity: number;
+    direction: string;
+    intent_score: number;
+    imbalance: number;
+  };
+  gamma_analysis?: {
+    net_gex: number;
+    gex_flip: number;
+    regime: string;
+  };
+  volatility_state?: {
+    expected_move: number;
+    breach_probability: number;
+  };
 }
 
 export interface AIPrediction {

@@ -62,6 +62,7 @@ interface TechnicalIndicators {
     middle: number;
     lower: number;
   };
+  momentum_15m?: number;
 }
 
 interface TradePlan {
@@ -458,7 +459,7 @@ export const useWSStore = create<WSStore>((set, get) =>({
 
               metadata: a.metadata
                 ? {
-                    ...get().analytics?.metadata,
+                    ...(get().analytics?.metadata as any || {}),
                     ...a.metadata
                   }
                 : get().analytics?.metadata ?? {}
@@ -586,7 +587,7 @@ export const useWSStore = create<WSStore>((set, get) =>({
           const updatedData = {
             ...currentData,
             [strikeKey]: {
-              ...currentData[strikeKey],
+              ...(currentData[strikeKey] as any || {}),
               [optionType]: {
                 strike: tick.strike,
                 right: tick.right,
@@ -740,6 +741,7 @@ export const useWSStore = create<WSStore>((set, get) =>({
             technicals: {
               ...(prev.technicals || {}),
               rsi: analysis.technical_state?.rsi ?? prev.technicals?.rsi,
+              momentum_15m: analysis.technical_state?.momentum_15m ?? prev.technicals?.momentum_15m,
               macd: {
                 signal: analysis.technical_state?.macd?.signal ?? prev.technicals?.macd?.signal ?? 0,
                 histogram: analysis.technical_state?.macd?.histogram ?? prev.technicals?.macd?.histogram ?? 0,
