@@ -17,9 +17,9 @@ export const BiasPanel = React.memo(function BiasPanel() {
     // Remove lastUpdate to prevent 11Hz re-renders where possible
     const hasData = useWSStore(s => s.spot > 0);
     
-    // v5.0 Bias state
-    const biasLabel = analysis?.bias || 'NEUTRAL';
-    const biasScore = analysis?.bias_strength || 0;
+    // v5.0 Bias state - Fix field mapping
+    const biasLabel = analysis?.bias || analysis?.market_bias || 'NEUTRAL';
+    const biasScore = analysis?.bias_strength || analysis?.confidence || 0;
 
     if (!hasData) {
         return (
@@ -96,10 +96,10 @@ export const ExpectedMovePanel = React.memo(function ExpectedMovePanel() {
     const analysis = useWSStore(s => s.chartAnalysis);
     const hasData = (spot ?? 0) > 0;
     
-    // v5.0 Volatility state
-    const vol = (analysis ?? {}).volatility_state;
-    const expectedMove = (vol ?? {}).expected_move ?? 0;
-    const breachProb = (vol ?? {}).breach_probability ?? 0;
+    // v5.0 Volatility state - Fix field mapping
+    const vol = (analysis ?? {}).volatility_state || (analysis ?? {}).volatility_analysis || {};
+    const expectedMove = vol.expected_move ?? 0;
+    const breachProb = vol.breach_probability ?? 0;
 
     if (!hasData || (spot ?? 0) === 0 || expectedMove <= 0) {
         return (

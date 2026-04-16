@@ -1,7 +1,8 @@
-import React, { useEffect, useState, memo } from 'react';
+import React, { useEffect, useState, memo, useMemo, useCallback } from 'react';
 import { AlertTriangle, Info, AlertCircle, X, Bell, Activity } from 'lucide-react';
 import { SectionLabel } from '../dashboard/StatCards';
 import { useWSStore } from '@/core/ws/wsStore';
+import { useShallow } from 'zustand/shallow';
 
 // Skeleton Pulse for professional loading states
 const SkeletonPulse = ({ className }: { className: string }) => (
@@ -9,11 +10,16 @@ const SkeletonPulse = ({ className }: { className: string }) => (
 );
 
 const AlertPanel: React.FC = () => {
-    // Law 7: Granular Store Subscriptions
-    const lastUpdate = useWSStore(s => s.lastUpdate);
+    // Law 7: Granular Store Subscriptions with shallow comparison
+    const { lastUpdate, chartAnalysis } = useWSStore(
+        useShallow(state => ({
+            lastUpdate: state.lastUpdate,
+            chartAnalysis: state.chartAnalysis
+        }))
+    );
+    
     const hasData = lastUpdate > 0;
-    const analysis = useWSStore(s => s.chartAnalysis) as any;
-    const alerts = analysis?.events || [];
+    const alerts = chartAnalysis?.events || [];
     
     const [dismissedAlerts, setDismissedAlerts] = useState<Set<string>>(new Set());
 
@@ -34,10 +40,46 @@ const AlertPanel: React.FC = () => {
         };
     }, []);
 
-    const visibleAlerts = alerts
-        .filter(a => !dismissedAlerts.has(`${a.type}-${a.timestamp}`))
-        .sort((a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime())
-        .slice(0, 5);
+    // Memoize visible alerts to prevent unnecessary recalculations
+    const visibleAlerts = useMemo(() => {
+        return alerts
+            .filter(a => !dismissedAlerts.has(`${a.type}-${a.timestamp}`))
+            .sort((a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime())
+            .slice(0, 5);
+    }, [alerts, dismissedAlerts]);
+
+    // Memoize dismiss alert function
+    const dismissAlert = useCallback((alertType: string, timestamp: string) => {
+        setDismissedAlerts(prev => new Set([...prev, `${alertType}-${timestamp}`]));
+    }, []);
+
+    // Memoized alert item component to prevent unnecessary re-renders
+    const AlertItem = memo(({ alert, styles, onDismiss }: { 
+        alert: any; 
+        styles: any; 
+        onDismiss: (type: string, timestamp: string) => void;
+    }) => (
+        <div key={`${alert.type}-${alert.timestamp}`} className={`relative p-3 rounded-xl border transition-all duration-300 ${styles.bg} ${styles.border} ${styles.glow || ''} hover:bg-white/[0.04]`}>
+            <div className="flex items-start gap-3">
+                <div className={`mt-0.5 p-1.5 rounded-lg bg-black/20 border ${styles.border}`}>
+                    {alert.severity === 'critical' || alert.severity === 'high' ? <AlertTriangle className={`w-3.5 h-3.5 ${styles.text}`} /> : <Info className={`w-3.5 h-3.5 ${styles.text}`} />}
+                </div>
+                <div className="flex-1 min-w-0">
+                    <div className="flex items-center justify-between mb-1">
+                        <span className={`text-[8px] font-black font-mono px-1.5 py-0.5 rounded uppercase ${styles.text} bg-black/40`}>{alert.severity}</span>
+                        <span className="text-[9px] font-bold font-mono text-slate-600 tabular-nums">{formatTimestamp(alert.timestamp)}</span>
+                    </div>
+                    <div className="text-xs font-bold text-white/90 leading-tight uppercase tracking-tight">{alert.message}</div>
+                </div>
+                <button
+                    onClick={() => onDismiss(alert.type, alert.timestamp)}
+                    className="p-1 rounded-lg hover:bg-white/10 text-slate-500 hover:text-white transition-all"
+                >
+                    <X className="w-3 h-3" />
+                </button>
+            </div>
+        </div>
+    ));
 
     const getAlertStyles = (severity: string) => {
         switch (severity.toLowerCase()) {
@@ -48,13 +90,14 @@ const AlertPanel: React.FC = () => {
         }
     };
 
-    const formatTimestamp = (ts: string) => {
+    // Memoize timestamp formatting to prevent unnecessary recalculations
+    const formatTimestamp = useCallback((ts: string) => {
         const diff = Date.now() - new Date(ts).getTime();
         const mins = Math.floor(diff / 60000);
         if (mins < 1) return 'JUST NOW';
         if (mins < 60) return `${mins}M AGO`;
         return new Date(ts).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-    };
+    }, []);
 
     if (!hasData) {
         return (
@@ -100,29 +143,15 @@ const AlertPanel: React.FC = () => {
             </div>
 
             <div className="space-y-2">
-                {visibleAlerts.map((alert, idx) => {
+                {visibleAlerts.map((alert) => {
                     const styles = getAlertStyles(alert.severity);
                     return (
-                        <div key={idx} className={`relative p-3 rounded-xl border transition-all duration-300 ${styles.bg} ${styles.border} ${styles.glow || ''} hover:bg-white/[0.04]`}>
-                            <div className="flex items-start gap-3">
-                                <div className={`mt-0.5 p-1.5 rounded-lg bg-black/20 border ${styles.border}`}>
-                                    {alert.severity === 'critical' || alert.severity === 'high' ? <AlertTriangle className={`w-3.5 h-3.5 ${styles.text}`} /> : <Info className={`w-3.5 h-3.5 ${styles.text}`} />}
-                                </div>
-                                <div className="flex-1 min-w-0">
-                                    <div className="flex items-center justify-between mb-1">
-                                        <span className={`text-[8px] font-black font-mono px-1.5 py-0.5 rounded uppercase ${styles.text} bg-black/40`}>{alert.severity}</span>
-                                        <span className="text-[9px] font-bold font-mono text-slate-600 tabular-nums">{formatTimestamp(alert.timestamp)}</span>
-                                    </div>
-                                    <div className="text-xs font-bold text-white/90 leading-tight uppercase tracking-tight">{alert.message}</div>
-                                </div>
-                                <button
-                                    onClick={() => setDismissedAlerts(prev => new Set([...prev, `${alert.type}-${alert.timestamp}`]))}
-                                    className="p-1 rounded-lg hover:bg-white/10 text-slate-500 hover:text-white transition-all"
-                                >
-                                    <X className="w-3 h-3" />
-                                </button>
-                            </div>
-                        </div>
+                        <AlertItem 
+                            key={`${alert.type}-${alert.timestamp}`}
+                            alert={alert}
+                            styles={styles}
+                            onDismiss={dismissAlert}
+                        />
                     );
                 })}
             </div>

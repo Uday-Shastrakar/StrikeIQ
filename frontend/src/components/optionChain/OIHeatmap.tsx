@@ -28,6 +28,115 @@ interface OIHeatmapProps {
   symbol: string;
 }
 
+// Memoized row component to prevent unnecessary re-renders
+const MemoizedHeatmapRow = memo(({ 
+  row, 
+  isATM, 
+  callIntensity, 
+  putIntensity, 
+  proximityEffect, 
+  isMagnetic,
+  index,
+  isATMRow,
+  isMeasurementRow,
+  atmRowRef,
+  rowMeasurementRef
+}: {
+  row: OIData;
+  isATM: boolean;
+  callIntensity: number;
+  putIntensity: number;
+  proximityEffect: number;
+  isMagnetic: boolean;
+  index: number;
+  isATMRow: boolean;
+  isMeasurementRow: boolean;
+  atmRowRef: React.RefObject<HTMLDivElement>;
+  rowMeasurementRef: React.RefObject<HTMLDivElement>;
+}) => {
+  return (
+    <div 
+      key={row.strike} 
+      ref={isATM ? atmRowRef : (index === 0 ? rowMeasurementRef : null)} 
+      className={`grid grid-cols-7 py-2.5 border-b border-white/[0.02] relative group/row ${
+        isATM ? 'bg-cyan-500/[0.05] border-y border-cyan-500/20 z-20' : 'hover:bg-white/[0.02]'
+      }`}
+      style={{
+        backgroundColor: proximityEffect > 0 ? `rgba(0, 229, 255, ${proximityEffect * 0.04})` : undefined,
+        willChange: proximityEffect > 0 ? 'background-color' : 'auto'
+      }}
+    >
+      {/* Intensity Gradient Bars (Premium Neon Style) */}
+      <div className="absolute right-[57.14%] top-[2px] bottom-[2px] pointer-events-none" style={{ 
+        width: `${callIntensity * 40}%`,
+        willChange: 'width',
+        transition: 'width 0.3s ease-out'
+      }}>
+        <div className="h-full bg-gradient-to-l from-[#FF3131]/25 to-transparent border-r border-[#FF3131]/50 shadow-[-4px_0_12px_rgba(255,49,49,0.2)]" />
+      </div>
+      
+      <div className="absolute left-[57.14%] top-[2px] bottom-[2px] pointer-events-none" style={{ 
+        width: `${putIntensity * 40}%`,
+        willChange: 'width',
+        transition: 'width 0.3s ease-out'
+      }}>
+        <div className="h-full bg-gradient-to-r from-[#00FF9D]/25 to-transparent border-l border-[#00FF9D]/50 shadow-[4px_0_12px_rgba(0,255,157,0.2)]" />
+      </div>
+
+      {/* Row Values */}
+      <div className="text-right pr-6 text-[12px] font-bold font-mono tabular-nums text-rose-100/90 relative z-10" style={{
+        willChange: proximityEffect > 0.6 ? 'color' : 'auto',
+        transition: 'color 0.2s ease-out'
+      }}>
+        {row.oi > 0 ? row.oi.toLocaleString() : '—'}
+      </div>
+      <div className={`text-center text-[11px] font-mono tabular-nums ${row.change > 0 ? 'text-[#00FF9D]' : (row.change < 0 ? 'text-[#FF3131]/60' : 'text-slate-600')}`}>
+        {row.change !== 0 ? (row.change > 0 ? `+${row.change}` : row.change) : '—'}
+      </div>
+      <div className={`text-center text-[11px] font-bold font-mono text-slate-400 tabular-nums border-r border-white/5 ${proximityEffect > 0.6 ? 'text-white' : ''}`}
+        style={{
+          willChange: proximityEffect > 0.6 ? 'color' : 'auto',
+          transition: 'color 0.2s ease-out'
+        }}>
+        {row.ltp > 0 ? row.ltp.toFixed(1) : '—'}
+      </div>
+      
+      {/* Global Strike Index (Institutional Sync) */}
+      <div className={`text-center text-[13px] font-black font-mono tabular-nums tracking-tighter relative z-30 ${
+        isATM ? 'text-cyan-400 scale-110' : 
+        (proximityEffect > 0.4 ? 'text-cyan-200' : 'text-slate-300')
+      }`}
+      style={{
+        willChange: isATM ? 'transform, color' : proximityEffect > 0.4 ? 'color' : 'auto',
+        transition: 'transform 0.2s ease-out, color 0.2s ease-out'
+      }}>
+        {row.strike}
+        {isMagnetic && (
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-8 rounded-full border border-cyan-500/30 animate-ping pointer-events-none" />
+        )}
+      </div>
+      
+      <div className={`text-center text-[11px] font-bold font-mono text-slate-400 tabular-nums border-l border-white/5 ${proximityEffect > 0.6 ? 'text-white' : ''}`}
+        style={{
+          willChange: proximityEffect > 0.6 ? 'color' : 'auto',
+          transition: 'color 0.2s ease-out'
+        }}>
+        {row.put_ltp > 0 ? row.put_ltp.toFixed(1) : '—'}
+      </div>
+      <div className={`text-center text-[11px] font-mono tabular-nums ${row.put_change > 0 ? 'text-[#00FF9D]' : (row.put_change < 0 ? 'text-[#FF3131]/60' : 'text-slate-600')}`}>
+        {row.put_change !== 0 ? (row.put_change > 0 ? `+${row.put_change}` : row.put_change) : '—'}
+      </div>
+      
+      <div className="text-left pl-6 text-[12px] font-bold font-mono tabular-nums text-emerald-100/90 relative z-10" style={{
+        willChange: 'color',
+        transition: 'color 0.2s ease-out'
+      }}>
+        {row.put_oi > 0 ? row.put_oi.toLocaleString() : '—'}
+      </div>
+    </div>
+  );
+});
+
 export const OIHeatmap = React.memo<OIHeatmapProps>(({ symbol }) => {
   const {
     expiryList,
@@ -131,87 +240,114 @@ export const OIHeatmap = React.memo<OIHeatmapProps>(({ symbol }) => {
     hasScrolledRef.current = false;
   }, [symbol]);
 
-  // Process live data from WebSocket
-  useEffect(() => {
-    if (actualLiveData && actualLiveData.callsData && Array.isArray(actualLiveData.callsData)) {
-      setSpotPrice(prev => {
-        if (prev === actualLiveData.spot_price) return prev;
-        return actualLiveData.spot_price;
-      });
+  // Memoize expensive data processing to prevent unnecessary recalculations
+  const processedData = useMemo(() => {
+    if (!actualLiveData || !actualLiveData.callsData || !Array.isArray(actualLiveData.callsData)) {
+      return null;
+    }
 
-      const strikeMap: { [key: number]: any } = {};
+    const strikeMap: { [key: number]: any } = {};
 
-      actualLiveData.callsData.forEach((call: any) => {
-        if (call.strike) {
-          strikeMap[call.strike] = {
-            call_oi: call.oi || 0,
-            put_oi: 0,
-            call_ltp: call.ltp || 0,
-            put_ltp: 0,
-            call_volume: call.volume || 0,
-            put_volume: 0,
-            call_change: call.oi_change || 0,
-            put_change: 0
+    actualLiveData.callsData.forEach((call: any) => {
+      if (call.strike) {
+        strikeMap[call.strike] = {
+          call_oi: call.oi || 0,
+          put_oi: 0,
+          call_ltp: call.ltp || 0,
+          put_ltp: 0,
+          call_volume: call.volume || 0,
+          put_volume: 0,
+          call_change: call.oi_change || 0,
+          put_change: 0
+        };
+      }
+    });
+
+    actualLiveData.putsData.forEach((put: any) => {
+      if (put.strike) {
+        if (strikeMap[put.strike]) {
+          strikeMap[put.strike].put_oi = put.oi || 0;
+          strikeMap[put.strike].put_ltp = put.ltp || 0;
+          strikeMap[put.strike].put_volume = put.volume || 0;
+          strikeMap[put.strike].put_change = put.oi_change || 0;
+        } else {
+          strikeMap[put.strike] = {
+            call_oi: 0,
+            put_oi: put.oi || 0,
+            call_ltp: 0,
+            put_ltp: put.ltp || 0,
+            call_volume: 0,
+            put_volume: put.volume || 0,
+            call_change: 0,
+            put_change: put.oi_change || 0
           };
         }
+      }
+    });
+
+    const transformedData = Object.entries(strikeMap).map(([strike, data]) => ({
+      strike: parseInt(strike),
+      oi: data.call_oi,
+      change: data.call_change,
+      ltp: data.call_ltp,
+      volume: data.call_volume,
+      iv: 0,
+      put_oi: data.put_oi,
+      put_change: data.put_change,
+      put_ltp: data.put_ltp,
+      put_volume: data.put_volume,
+      put_iv: 0,
+    }));
+
+    transformedData.sort((a, b) => a.strike - b.strike);
+
+    // Show roughly 50 strikes centered around ATM
+    const atm = actualLiveData.atm_strike || actualLiveData.spot_price || 0;
+    const filteredData = transformedData.filter(row => {
+      const diff = Math.abs(row.strike - atm);
+      return diff <= 1250; // Wider range if needed, user mentioned 50+
+    });
+
+    return {
+      spotPrice: actualLiveData.spot_price,
+      data: filteredData
+    };
+  }, [actualLiveData.callsData, actualLiveData.putsData, actualLiveData.spot_price, actualLiveData.atm_strike]);
+
+  // Update state with memoized data
+  useEffect(() => {
+    if (processedData) {
+      setSpotPrice(prev => {
+        if (prev === processedData.spotPrice) return prev;
+        return processedData.spotPrice;
       });
 
-      actualLiveData.putsData.forEach((put: any) => {
-        if (put.strike) {
-          if (strikeMap[put.strike]) {
-            strikeMap[put.strike].put_oi = put.oi || 0;
-            strikeMap[put.strike].put_ltp = put.ltp || 0;
-            strikeMap[put.strike].put_volume = put.volume || 0;
-            strikeMap[put.strike].put_change = put.oi_change || 0;
-          } else {
-            strikeMap[put.strike] = {
-              call_oi: 0,
-              put_oi: put.oi || 0,
-              call_ltp: 0,
-              put_ltp: put.ltp || 0,
-              call_volume: 0,
-              put_volume: put.volume || 0,
-              call_change: 0,
-              put_change: put.oi_change || 0
-            };
-          }
-        }
-      });
-
-      const transformedData = Object.entries(strikeMap).map(([strike, data]) => ({
-        strike: parseInt(strike),
-        oi: data.call_oi,
-        change: data.call_change,
-        ltp: data.call_ltp,
-        volume: data.call_volume,
-        iv: 0,
-        put_oi: data.put_oi,
-        put_change: data.put_change,
-        put_ltp: data.put_ltp,
-        put_volume: data.put_volume,
-        put_iv: 0,
-      }));
-
-      transformedData.sort((a, b) => a.strike - b.strike);
-
-      // Show roughly 50 strikes centered around ATM
-      const atm = actualLiveData.atm_strike || actualLiveData.spot_price || 0;
-      const filteredData = transformedData.filter(row => {
-        const diff = Math.abs(row.strike - atm);
-        return diff <= 1250; // Wider range if needed, user mentioned 50+
-      });
-
+      // Use deep comparison with early exit to prevent unnecessary updates
       setOiData(prev => {
-        if (JSON.stringify(prev) === JSON.stringify(filteredData)) return prev;
-        return filteredData;
+        if (prev.length === processedData.data.length && 
+            prev.every((item, index) => 
+              item.strike === processedData.data[index].strike &&
+              item.oi === processedData.data[index].oi &&
+              item.put_oi === processedData.data[index].put_oi
+            )) {
+          return prev;
+        }
+        return processedData.data;
       });
     }
-  }, [actualLiveData]); // spotPrice removed to break loop
+  }, [processedData]);
 
-  const maxCallOI = Math.max(...(oiData || []).map(r => r.oi), 1);
-  const maxPutOI = Math.max(...(oiData || []).map(r => r.put_oi), 1);
+  // Memoize max OI calculations to prevent unnecessary recalculations
+  const maxCallOI = useMemo(() => {
+    return oiData && oiData.length > 0 ? Math.max(...oiData.map(r => r.oi), 1) : 1;
+  }, [oiData]);
   
-  const strikeList = useMemo(() => (oiData || []).map(d => d.strike), [oiData]);
+  const maxPutOI = useMemo(() => {
+    return oiData && oiData.length > 0 ? Math.max(...oiData.map(r => r.put_oi), 1) : 1;
+  }, [oiData]);
+  
+  // Memoize strike list to prevent unnecessary recalculations
+  const strikeList = useMemo(() => oiData ? oiData.map(d => d.strike) : [], [oiData]);
 
   // Memoize filtered rows to prevent unnecessary re-renders
   const filteredRows = useMemo(() => {
@@ -317,85 +453,20 @@ export const OIHeatmap = React.memo<OIHeatmapProps>(({ symbol }) => {
               const isMagnetic = spotDist < 5;
 
               return (
-                <div 
-                  key={row.strike} 
-                  ref={isATM ? atmRowRef : (index === 0 ? rowMeasurementRef : null)} 
-                  className={`grid grid-cols-7 py-2.5 border-b border-white/[0.02] relative group/row ${
-                    isATM ? 'bg-cyan-500/[0.05] border-y border-cyan-500/20 z-20' : 'hover:bg-white/[0.02]'
-                  }`}
-                  style={{
-                    backgroundColor: proximityEffect > 0 ? `rgba(0, 229, 255, ${proximityEffect * 0.04})` : undefined,
-                    willChange: proximityEffect > 0 ? 'background-color' : 'auto'
-                  }}
-                >
-                  {/* Intensity Gradient Bars (Premium Neon Style) */}
-                  <div className="absolute right-[57.14%] top-[2px] bottom-[2px] pointer-events-none" style={{ 
-                    width: `${callIntensity * 40}%`,
-                    willChange: 'width',
-                    transition: 'width 0.3s ease-out'
-                  }}>
-                    <div className="h-full bg-gradient-to-l from-[#FF3131]/25 to-transparent border-r border-[#FF3131]/50 shadow-[-4px_0_12px_rgba(255,49,49,0.2)]" />
-                  </div>
-                  
-                  <div className="absolute left-[57.14%] top-[2px] bottom-[2px] pointer-events-none" style={{ 
-                    width: `${putIntensity * 40}%`,
-                    willChange: 'width',
-                    transition: 'width 0.3s ease-out'
-                  }}>
-                    <div className="h-full bg-gradient-to-r from-[#00FF9D]/25 to-transparent border-l border-[#00FF9D]/50 shadow-[4px_0_12px_rgba(0,255,157,0.2)]" />
-                  </div>
-
-                  {/* Row Values */}
-                  <div className="text-right pr-6 text-[12px] font-bold font-mono tabular-nums text-rose-100/90 relative z-10" style={{
-                    willChange: proximityEffect > 0.6 ? 'color' : 'auto',
-                    transition: 'color 0.2s ease-out'
-                  }}>
-                    {row.oi > 0 ? row.oi.toLocaleString() : '—'}
-                  </div>
-                  <div className={`text-center text-[11px] font-mono tabular-nums ${row.change > 0 ? 'text-[#00FF9D]' : (row.change < 0 ? 'text-[#FF3131]/60' : 'text-slate-600')}`}>
-                    {row.change !== 0 ? (row.change > 0 ? `+${row.change}` : row.change) : '—'}
-                  </div>
-                  <div className={`text-center text-[11px] font-bold font-mono text-slate-400 tabular-nums border-r border-white/5 ${proximityEffect > 0.6 ? 'text-white' : ''}`}
-                    style={{
-                      willChange: proximityEffect > 0.6 ? 'color' : 'auto',
-                      transition: 'color 0.2s ease-out'
-                    }}>
-                    {row.ltp > 0 ? row.ltp.toFixed(1) : '—'}
-                  </div>
-                  
-                  {/* Global Strike Index (Institutional Sync) */}
-                  <div className={`text-center text-[13px] font-black font-mono tabular-nums tracking-tighter relative z-30 ${
-                    isATM ? 'text-cyan-400 scale-110' : 
-                    (proximityEffect > 0.4 ? 'text-cyan-200' : 'text-slate-300')
-                  }`}
-                  style={{
-                    willChange: isATM ? 'transform, color' : proximityEffect > 0.4 ? 'color' : 'auto',
-                    transition: 'transform 0.2s ease-out, color 0.2s ease-out'
-                  }}>
-                    {row.strike}
-                    {isMagnetic && (
-                        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-8 rounded-full border border-cyan-500/30 animate-ping pointer-events-none" />
-                    )}
-                  </div>
-                  
-                  <div className={`text-center text-[11px] font-bold font-mono text-slate-400 tabular-nums border-l border-white/5 ${proximityEffect > 0.6 ? 'text-white' : ''}`}
-                    style={{
-                      willChange: proximityEffect > 0.6 ? 'color' : 'auto',
-                      transition: 'color 0.2s ease-out'
-                    }}>
-                    {row.put_ltp > 0 ? row.put_ltp.toFixed(1) : '—'}
-                  </div>
-                  <div className={`text-center text-[11px] font-mono tabular-nums ${row.put_change > 0 ? 'text-[#00FF9D]' : (row.put_change < 0 ? 'text-[#FF3131]/60' : 'text-slate-600')}`}>
-                    {row.put_change !== 0 ? (row.put_change > 0 ? `+${row.put_change}` : row.put_change) : '—'}
-                  </div>
-                  
-                  <div className="text-left pl-6 text-[12px] font-bold font-mono tabular-nums text-emerald-100/90 relative z-10" style={{
-                    willChange: 'color',
-                    transition: 'color 0.2s ease-out'
-                  }}>
-                    {row.put_oi > 0 ? row.put_oi.toLocaleString() : '—'}
-                  </div>
-                </div>
+                <MemoizedHeatmapRow
+                  key={row.strike}
+                  row={row}
+                  isATM={isATM}
+                  callIntensity={callIntensity}
+                  putIntensity={putIntensity}
+                  proximityEffect={proximityEffect}
+                  isMagnetic={isMagnetic}
+                  index={index}
+                  isATMRow={isATM}
+                  isMeasurementRow={index === 0}
+                  atmRowRef={atmRowRef}
+                  rowMeasurementRef={rowMeasurementRef}
+                />
               );
             })}
           </div>

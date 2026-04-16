@@ -13,11 +13,12 @@ const AIInterpretationPanel: React.FC = () => {
     const hasData = lastUpdate > 0;
     
     // Direct selectors with fallbacks
-    const interpretation = useWSStore(s => s.summary ?? '');
-    const riskTopology = useWSStore(s => s.regime ?? 'STABLE');
-    const structuralPos = useWSStore(s => s.regime ?? 'RANGING');
-    const earlyWarnings = useWSStore(s => s.earlyWarnings ?? []);
-    const confidence = useWSStore(s => s.biasStrength ?? 0);
+    const analytics = useWSStore(s => s.analytics) as any;
+    const interpretation = analytics?.summary ?? '';
+    const riskTopology = analytics?.regime ?? 'STABLE';
+    const structuralPos = analytics?.regime ?? 'RANGING';
+    const earlyWarnings = analytics?.earlyWarnings ?? [];
+    const confidence = analytics?.biasStrength ?? 0;
 
     if (!hasData) {
         return (
@@ -77,9 +78,9 @@ const AIInterpretationPanel: React.FC = () => {
             {/* Core Summary */}
             <div className="relative mb-6 p-5 rounded-3xl bg-white/[0.015] border border-white/10 backdrop-blur-2xl group hover:bg-white/[0.03] transition-all duration-700 shadow-2xl flex-grow overflow-hidden">
                 <div className="absolute top-0 left-0 w-12 h-[1px] bg-gradient-to-r from-blue-500/80 to-transparent" />
-                <div className="absolute top-0 left-0 w-[1px] h-12 bg-gradient-to-b from-blue-500/80 to-transparent" />
+                <div className="absolute top-0 left-0 w-px h-12 bg-gradient-to-b from-blue-500/80 to-transparent" />
                 <div className="absolute bottom-0 right-0 w-12 h-[1px] bg-gradient-to-l from-blue-500/40 to-transparent" />
-                <div className="absolute bottom-0 right-0 w-[1px] h-12 bg-gradient-to-t from-blue-500/40 to-transparent" />
+                <div className="absolute bottom-0 right-0 w-px h-12 bg-gradient-to-t from-blue-500/40 to-transparent" />
 
                 <h4 className="text-[9px] font-black font-mono tracking-[0.4em] text-slate-500 mb-4 uppercase text-center opacity-60">Neural Narrative Analysis</h4>
                 <p className="text-[16px] font-medium leading-[1.6] text-slate-100 font-sans tracking-tight italic text-center drop-shadow-sm px-2">
@@ -87,7 +88,7 @@ const AIInterpretationPanel: React.FC = () => {
                 </p>
                 
                 <div className="mt-8 flex justify-center">
-                    <div className="w-1.5 h-1.5 rounded-full bg-blue-500/20 animate-pulse" />
+                    <div className="w-[6px] h-[6px] rounded-full bg-blue-500/20 animate-pulse" />
                 </div>
             </div>
 
